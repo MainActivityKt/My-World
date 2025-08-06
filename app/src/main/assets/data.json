@@ -1,0 +1,51 @@
+ [
+    {
+      "name": "Asia",
+      "population": 4835320000,
+      "area": 44579000,
+      "numberOfCountries": 49,
+      "countries": []
+    },
+    {
+      "name": "Africa",
+      "population": 1549867500,
+      "area": 30370000,
+      "numberOfCountries": 54,
+      "countries": []
+    },
+    {
+      "name": "Europe",
+      "population": 742556200,
+      "area": 10180000,
+      "numberOfCountries": 44,
+      "countries": []
+    },
+    {
+      "name": "North America",
+      "population": 617286600,
+      "area": 24709000,
+      "numberOfCountries": 23,
+      "countries": []
+    },
+    {
+      "name": "South America",
+      "population": 438105300,
+      "area": 17840000,
+      "numberOfCountries": 12,
+      "countries": []
+    },
+    {
+      "name": "Oceania",
+      "population": 46609600,
+      "area": 8525989,
+      "numberOfCountries": 14,
+      "countries": []
+    },
+    {
+      "name": "Antarctica",
+      "population": 0,
+      "area": 14200000,
+      "numberOfCountries": 0,
+      "countries": []
+    }
+  ]
