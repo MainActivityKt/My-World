@@ -80,7 +80,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\Users\Safiu\AndroidStudioProjects\Resources\My world - resources\Drawable\earth-8549451_1920.png" />
-                                                <entry key="scalingPercent" value="91" />
+                                                <entry key="scalingPercent" value="78" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -115,7 +115,6 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="fdfd25" />
-                                      <entry key="generatePlayStoreIcon" value="false" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
                                     </map>
                                   </option>
