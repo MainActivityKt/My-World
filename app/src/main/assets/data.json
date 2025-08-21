@@ -1,51 +1,2670 @@
- [
-    {
-      "name": "Asia",
-      "population": 4835320000,
-      "area": 44579000,
-      "numberOfCountries": 49,
-      "countries": []
-    },
-    {
-      "name": "Africa",
-      "population": 1549867500,
-      "area": 30370000,
-      "numberOfCountries": 54,
-      "countries": []
-    },
-    {
-      "name": "Europe",
-      "population": 742556200,
-      "area": 10180000,
-      "numberOfCountries": 44,
-      "countries": []
-    },
-    {
-      "name": "North America",
-      "population": 617286600,
-      "area": 24709000,
-      "numberOfCountries": 23,
-      "countries": []
-    },
-    {
-      "name": "South America",
-      "population": 438105300,
-      "area": 17840000,
-      "numberOfCountries": 12,
-      "countries": []
-    },
-    {
-      "name": "Oceania",
-      "population": 46609600,
-      "area": 8525989,
-      "numberOfCountries": 14,
-      "countries": []
-    },
-    {
-      "name": "Antarctica",
-      "population": 0,
-      "area": 14200000,
-      "numberOfCountries": 0,
-      "countries": []
-    }
-  ]
+
+
+[
+  {
+    "name": "Asia",
+    "population": 4835320060,
+    "area": 44579000,
+    "numberOfCountries": 49,
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "countryCode": "AF",
+        "capital": "Kabul",
+        "population": 44555960,
+        "area": 652230,
+        "subregion": "Southern Asia",
+        "languages": [
+          "Dari",
+          "Pashto"
+        ],
+        "currency": "Afghani (AFN)",
+        "callingCode": "+93",
+        "flag": "🇦🇫",
+        "gdp": 14600000000,
+        "shortDescription": "Landlocked country known for its rugged Hindu Kush mountains and rich cultural history.",
+        "description": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a mountainous, landlocked nation at the crossroads of Central and South Asia. Its landscape is dominated by the Hindu Kush range. The country has a deep history as a key location on the ancient Silk Road, leading to a diverse cultural heritage reflected in its traditional crafts, music, and poetry."
+      },
+      {
+        "name": "Armenia",
+        "countryCode": "AM",
+        "capital": "Yerevan",
+        "population": 2952500,
+        "area": 29743,
+        "subregion": "Western Asia",
+        "languages": [
+          "Armenian"
+        ],
+        "currency": "Dram (AMD)",
+        "callingCode": "+374",
+        "flag": "🇦🇲",
+        "gdp": 19500000000,
+        "shortDescription": "First nation to adopt Christianity, renowned for ancient monasteries and chess.",
+        "description": "Armenia, officially the Republic of Armenia, was the first state in the world to adopt Christianity as its official religion in the early 4th century. The country is dotted with ancient monasteries like Tatev and Geghard, set against a dramatic landscape of mountains and valleys. Armenian culture is celebrated for its distinctive khachkars (cross-stones), traditional music, and its world-famous brandy."
+      },
+      {
+        "name": "Azerbaijan",
+        "countryCode": "AZ",
+        "capital": "Baku",
+        "population": 10412600,
+        "area": 86600,
+        "subregion": "Western Asia",
+        "languages": [
+          "Azerbaijani"
+        ],
+        "currency": "Manat (AZN)",
+        "callingCode": "+994",
+        "flag": "🇦🇿",
+        "gdp": 54600000000,
+        "shortDescription": "Land of fire with a rich history of oil extraction and a vibrant cultural mix of East and West.",
+        "description": "Azerbaijan, officially the Republic of Azerbaijan, is known as the 'Land of Fire' due to its natural gas reserves which have fueled eternal flames for centuries. Its capital, Baku, is a modern metropolis on the Caspian Sea coast, known for its futuristic Flame Towers and medieval Old City. Azerbaijani culture is a unique blend of Turkic, Persian, and European influences, evident in its music (like Mugham), cuisine, and carpets."
+      },
+      {
+        "name": "Bahrain",
+        "countryCode": "BH",
+        "capital": "Manama",
+        "population": 1472233,
+        "area": 760,
+        "subregion": "Western Asia",
+        "languages": [
+          "Arabic"
+        ],
+        "currency": "Bahraini Dinar (BHD)",
+        "callingCode": "+973",
+        "flag": "🇧🇭",
+        "gdp": 44500000000,
+        "shortDescription": "An island nation in the Persian Gulf, known for its pearl diving history and modern financial hub.",
+        "description": "The Kingdom of Bahrain is an archipelago of 33 islands. Historically renowned for its pearl diving industry, it has transformed into a modern financial center. The ancient Dilmun civilization once thrived here, and the country is home to the UNESCO-listed Bahrain Fort (Qal'at al-Bahrain) and the iconic Tree of Life, a 400-year-old mesquite tree standing alone in the desert."
+      },
+      {
+        "name": "Bangladesh",
+        "countryCode": "BD",
+        "capital": "Dhaka",
+        "population": 172954319,
+        "area": 148460,
+        "subregion": "Southern Asia",
+        "languages": [
+          "Bengali"
+        ],
+        "currency": "Taka (BDT)",
+        "callingCode": "+880",
+        "flag": "🇧🇩",
+        "gdp": 460000000000,
+        "shortDescription": "A riverine delta nation with a rich Bengali culture and the world's largest mangrove forest.",
+        "description": "The People's Republic of Bangladesh is dominated by the vast Ganges-Brahmaputra delta, making it one of the most fertile and densely populated countries on Earth. It is the heart of Bengali culture, known for its vibrant literature, music, and festivals like Pohela Boishakh (Bengali New Year). The Sundarbans, a UNESCO World Heritage Site, is the largest mangrove forest in the world and home to the Royal Bengal tiger."
+      },
+      {
+        "name": "Bhutan",
+        "countryCode": "BT",
+        "capital": "Thimphu",
+        "population": 787425,
+        "area": 38394,
+        "subregion": "Southern Asia",
+        "languages": [
+          "Dzongkha"
+        ],
+        "currency": "Ngultrum (BTN)",
+        "callingCode": "+975",
+        "flag": "🇧🇹",
+        "gdp": 2530000000,
+        "shortDescription": "The 'Land of the Thunder Dragon,' famous for measuring Gross National Happiness and its pristine Himalayas.",
+        "description": "The Kingdom of Bhutan is a unique Himalayan nation that prioritizes Gross National Happiness over economic growth. It is a carbon-negative country with a constitution mandating at least 60% forest cover. Bhutan's landscape is characterized by dramatic mountains, ancient dzongs (fortress monasteries), and deep valleys. Its culture is deeply influenced by Vajrayana Buddhism, with colorful tsechu festivals showcasing sacred mask dances."
+      },
+      {
+        "name": "Brunei",
+        "countryCode": "BN",
+        "capital": "Bandar Seri Begawan",
+        "population": 449002,
+        "area": 5765,
+        "subregion": "South-Eastern Asia",
+        "languages": [
+          "Malay"
+        ],
+        "currency": "Brunei Dollar (BND)",
+        "callingCode": "+673",
+        "flag": "🇧🇳",
+        "gdp": 14000000000,
+        "shortDescription": "A small, wealthy sultanate on Borneo, known for its oil wealth and pristine rainforests.",
+        "description": "Brunei Darussalam is an absolute monarchy known for its significant oil and natural gas reserves. The country retains much of its pristine rainforests. The opulent Omar Ali Saifuddien Mosque and the traditional water village of Kampong Ayer are iconic landmarks. Bruneian culture is heavily influenced by Malay traditions and Islamic values."
+      },
+      {
+        "name": "Cambodia",
+        "countryCode": "KH",
+        "capital": "Phnom Penh",
+        "population": 16767842,
+        "area": 181035,
+        "subregion": "South-Eastern Asia",
+        "languages": [
+          "Khmer"
+        ],
+        "currency": "Riel (KHR)",
+        "callingCode": "+855",
+        "flag": "🇰🇭",
+        "gdp": 28900000000,
+        "shortDescription": "Home to the magnificent Angkor Wat, with a rich history and a culture of resilience.",
+        "description": "The Kingdom of Cambodia is most famous for Angkor Wat, the largest religious monument in the world. The country has a rich cultural heritage of classical dance and intricate silk weaving. Its lifeblood is the Tonlé Sap lake, one of the world's most productive freshwater ecosystems."
+      },
+      {
+        "name": "China",
+        "countryCode": "CN",
+        "capital": "Beijing",
+        "population": 1411750000,
+        "area": 9596961,
+        "subregion": "Eastern Asia",
+        "languages": [
+          "Standard Chinese"
+        ],
+        "currency": "Yuan Renminbi (CNY)",
+        "callingCode": "+86",
+        "flag": "🇨🇳",
+        "gdp": 17963100000000,
+        "shortDescription": "The world's most populous country, with one of the oldest civilizations.",
+        "description": "The People's Republic of China is an ancient civilization with a continuous history spanning over five millennia. It is the cradle of many world-changing inventions. Its landscape is incredibly diverse, ranging from the Himalayas to megacities. Chinese culture is profoundly influential, encompassing philosophy, art, cuisine, and medicine."
+      },
+      {
+        "name": "Cyprus",
+        "countryCode": "CY",
+        "capital": "Nicosia",
+        "population": 1260138,
+        "area": 9251,
+        "subregion": "Western Asia",
+        "languages": [
+          "Greek",
+          "Turkish"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+357",
+        "flag": "🇨🇾",
+        "gdp": 28300000000,
+        "shortDescription": "A Mediterranean island nation with a rich ancient history.",
+        "description": "The Republic of Cyprus is an island nation in the eastern Mediterranean Sea. It is the legendary birthplace of the Greek goddess Aphrodite. The island has a long and rich history, leaving behind archaeological treasures. Cyprus is famous for its halloumi cheese and Commandaria wine."
+      }
+    ]
+  },
+  {
+    "name": "Africa",
+    "population": 1470000000,
+    "area": 30370000,
+    "numberOfCountries": 54,
+    "countries": [
+      {
+        "name": "Algeria",
+        "countryCode": "DZ",
+        "capital": "Algiers",
+        "population": 45606480,
+        "area": 2381741,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic",
+          "Tamazight"
+        ],
+        "currency": "Algerian Dinar (DZD)",
+        "callingCode": "+213",
+        "flag": "🇩🇿",
+        "gdp": 191000000000,
+        "shortDescription": "Africa's largest country by area, known for its vast Sahara desert and ancient Roman ruins.",
+        "description": "The People's Democratic Republic of Algeria is the largest country in Africa and the tenth-largest in the world. Most of its territory is covered by the Sahara Desert, featuring stunning sand dunes, mountain ranges, and ancient cave art. The north boasts a beautiful Mediterranean coastline and well-preserved Roman ruins like those at Timgad and Djémila. Algerian culture is a rich blend of Arab, Berber, and French influences, reflected in its music, cuisine, and literature."
+      },
+      {
+        "name": "Angola",
+        "countryCode": "AO",
+        "capital": "Luanda",
+        "population": 36529000,
+        "area": 1246700,
+        "subregion": "Middle Africa",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Kwanza (AOA)",
+        "callingCode": "+244",
+        "flag": "🇦🇴",
+        "gdp": 124000000000,
+        "shortDescription": "A resource-rich nation on the southwest coast with a vibrant music scene and stunning landscapes.",
+        "description": "The Republic of Angola is a country in Southern Africa known for its substantial oil and diamond reserves. After a long civil war, it has emerged as a growing economy. Its landscape includes a tropical Atlantic coastline, a highland plateau, and the arid Namib Desert in the south. The Kalandula Falls are one of Africa's largest waterfalls. Angolan culture is known for its semba music, the precursor to Brazilian samba, and its diverse ethnic traditions."
+      },
+      {
+        "name": "Benin",
+        "countryCode": "BJ",
+        "capital": "Porto-Novo",
+        "population": 13712829,
+        "area": 114763,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+229",
+        "flag": "🇧🇯",
+        "gdp": 17400000000,
+        "shortDescription": "Home to diverse wildlife in Pendjari National Park and unique stilt villages on Lake Nokoué.",
+        "description": "The Republic of Benin is a nation rich in biodiversity and unique ecosystems. It is home to Pendjari National Park, a UNESCO World Heritage site and one of West Africa's best wildlife reserves, hosting elephants, lions, cheetahs, and hundreds of bird species. The country features the fascinating stilt villages of Ganvié on Lake Nokoué, often called the 'Venice of Africa.' Benin's landscape ranges from coastal plains to savannahs and forests, supporting diverse flora including valuable timber species and shea trees."
+      },
+      {
+        "name": "Botswana",
+        "countryCode": "BW",
+        "capital": "Gaborone",
+        "population": 2630336,
+        "area": 581730,
+        "subregion": "Southern Africa",
+        "languages": [
+          "English",
+          "Setswana"
+        ],
+        "currency": "Pula (BWP)",
+        "callingCode": "+267",
+        "flag": "🇧🇼",
+        "gdp": 18900000000,
+        "shortDescription": "A model of conservation success with the magnificent Okavango Delta and rich wildlife.",
+        "description": "The Republic of Botswana is celebrated for its pristine wilderness and successful wildlife conservation programs. It is home to the Okavango Delta, one of the world's largest inland deltas and a UNESCO World Heritage site, which transforms the Kalahari Desert into a lush animal habitat. The country boasts large populations of elephants, lions, and rare African wild dogs. Botswana's stable democracy and diamond wealth have made it one of Africa's most prosperous nations."
+      },
+      {
+        "name": "Burkina Faso",
+        "countryCode": "BF",
+        "capital": "Ouagadougou",
+        "population": 22673762,
+        "area": 272967,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+226",
+        "flag": "🇧🇫",
+        "gdp": 19700000000,
+        "shortDescription": "Known as the 'Land of Honest People,' with vibrant music and cultural festivals.",
+        "description": "Burkina Faso, meaning 'Land of Honest People,' is known for its rich cultural tapestry and artistic vibrancy. The country hosts one of Africa's most important cultural events, the Pan-African Film and Television Festival of Ouagadougou. Its landscape features the dramatic Sindou Peaks and wildlife reserves home to elephants and hippos. Burkinabé culture is expressed through unique architectural traditions, intricate bronze and gold craftsmanship, and energetic musical styles that have gained international recognition."
+      },
+      {
+        "name": "Burundi",
+        "countryCode": "BI",
+        "capital": "Gitega",
+        "population": 12952218,
+        "area": 27834,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Kirundi",
+          "French"
+        ],
+        "currency": "Burundian Franc (BIF)",
+        "callingCode": "+257",
+        "flag": "🇧🇮",
+        "gdp": 3100000000,
+        "shortDescription": "Source of the Nile with beautiful highland scenery and traditional drumming culture.",
+        "description": "The Republic of Burundi is a country of stunning highlands and lakes, considered one of the potential sources of the Nile River. Its landscape includes the shores of Lake Tanganyika, the world's second-deepest lake, which hosts hundreds of unique fish species. Burundi is famous for its living tradition of royal drumming, recognized by UNESCO as an Intangible Cultural Heritage of Humanity. The country's agricultural terraces create beautiful patterns across its hillsides, cultivating coffee and tea as principal exports."
+      },
+      {
+        "name": "Cabo Verde",
+        "countryCode": "CV",
+        "capital": "Praia",
+        "population": 587925,
+        "area": 4033,
+        "subregion": "Western Africa",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Cape Verdean Escudo (CVE)",
+        "callingCode": "+238",
+        "flag": "🇨🇻",
+        "gdp": 2180000000,
+        "shortDescription": "A stunning Atlantic archipelago renowned for its Creole culture, music, and volcanic landscapes.",
+        "description": "The Republic of Cabo Verde is a captivating island nation off the coast of West Africa, formed by ten volcanic islands. It is celebrated for its Morabeza—a Creole expression meaning hospitality and warmth. The country boasts beautiful beaches, world-class windsurfing conditions, and a rich musical heritage that gave birth to the melancholic and soulful genre of Morna. Its unique culture is a vibrant blend of Portuguese and African influences, evident in its cuisine, music, and language."
+      },
+      {
+        "name": "Cameroon",
+        "countryCode": "CM",
+        "capital": "Yaoundé",
+        "population": 29473794,
+        "area": 475442,
+        "subregion": "Middle Africa",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+237",
+        "flag": "🇨🇲",
+        "gdp": 101000000000,
+        "shortDescription": "Known as 'Africa in Miniature' for its incredible geographical and cultural diversity.",
+        "description": "The Republic of Cameroon lives up to its nickname 'Africa in Miniature' by featuring an astounding variety of ecosystems, from rainforests and deserts to mountains and savannahs. It is home to Mount Cameroon, an active volcano and the highest peak in West Africa. The country's cultural diversity is equally impressive, with over 200 ethnic groups and a vibrant tradition of music, particularly Makossa. Cameroon is also famous for its successful national football team and is a significant producer of coffee and cocoa."
+      },
+      {
+        "name": "Central African Republic",
+        "countryCode": "CF",
+        "capital": "Bangui",
+        "population": 5457154,
+        "area": 622984,
+        "subregion": "Middle Africa",
+        "languages": [
+          "French",
+          "Sango"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+236",
+        "flag": "🇨🇫",
+        "gdp": 2500000000,
+        "shortDescription": "A nation of vast wilderness, rich in diamonds and biodiversity, including forest elephants and lowland gorillas.",
+        "description": "The Central African Republic is a landlocked nation of immense natural beauty and untapped potential. Much of the country is covered by dense rainforest and savannah, hosting incredible biodiversity in national parks like Dzanga-Sangha, known for its large populations of forest elephants and western lowland gorillas. The country's wealth lies in its natural resources, including diamonds, gold, and timber. The vibrant capital, Bangui, sits on the banks of the Ubangi River and is a hub of Central African culture and commerce."
+      },
+      {
+        "name": "Chad",
+        "countryCode": "TD",
+        "capital": "N'Djamena",
+        "population": 17723315,
+        "area": 1284000,
+        "subregion": "Middle Africa",
+        "languages": [
+          "French",
+          "Arabic"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+235",
+        "flag": "🇹🇩",
+        "gdp": 11200000000,
+        "shortDescription": "Home to the Sahara's dunes and the rich ecological haven of Lake Chad.",
+        "description": "The Republic of Chad is a vast, landlocked nation characterized by a striking contrast between the Sahara Desert in the north and the fertile savannas and wetlands of the south. It is named after Lake Chad, a crucial water source for people and wildlife in the Sahel region. The country's diverse landscapes include the towering dunes of the Erg du Djourab and the Tibesti Mountains, home to volcanic peaks and ancient rock art. Chad's culture is a fascinating mix of over 200 ethnic groups, with influences from the Arab north and sub-Saharan south."
+      },
+      {
+        "name": "Comoros",
+        "countryCode": "KM",
+        "capital": "Moroni",
+        "population": 821625,
+        "area": 1862,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Arabic",
+          "French",
+          "Comorian"
+        ],
+        "currency": "Comorian Franc (KMF)",
+        "callingCode": "+269",
+        "flag": "🇰🇲",
+        "gdp": 1300000000,
+        "shortDescription": "A fragrant volcanic archipelago known as the 'Perfume Isles' for its scent-producing plants.",
+        "description": "The Union of the Comoros is a breathtaking archipelago in the Indian Ocean, nestled between Madagascar and the African mainland. Known as the 'Perfume Isles,' its volcanoes and lush hillsides are covered in plants like ylang-ylang and cloves, which are used in the world's perfume industry. The islands are surrounded by vibrant coral reefs teeming with marine life. Comorian culture is a rich blend of Arab, Persian, French, and African influences, reflected in its Swahili architecture, intricate wedding ceremonies, and delicious seafood-based cuisine."
+      },
+      {
+        "name": "Democratic Republic of the Congo",
+        "countryCode": "CD",
+        "capital": "Kinshasa",
+        "population": 108407721,
+        "area": 2344858,
+        "subregion": "Middle Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "Congolese Franc (CDF)",
+        "callingCode": "+243",
+        "flag": "🇨🇩",
+        "gdp": 69000000000,
+        "shortDescription": "A nation of immense scale, containing the bulk of the world's second-largest rainforest and incredible mineral wealth.",
+        "description": "The Democratic Republic of the Congo is a country of staggering size and natural wealth. It houses the majority of the Congo Basin, the world's second-largest rainforest after the Amazon, which is a vital lung for the planet and home to iconic species like okapis, bonobos, and mountain gorillas. The mighty Congo River, the second-longest in Africa, snakes through the country, providing a crucial transport artery. The DRC is a cultural powerhouse, renowned as the birthplace of modern African musical genres like Soukous and Rumba, and its vibrant art scene is celebrated globally."
+      },
+      {
+        "name": "Republic of the Congo",
+        "countryCode": "CG",
+        "capital": "Brazzaville",
+        "population": 5970420,
+        "area": 342000,
+        "subregion": "Middle Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+242",
+        "flag": "🇨🇬",
+        "gdp": 32000000000,
+        "shortDescription": "A nation of lush rainforests, known for its wildlife and oil reserves.",
+        "description": "The Republic of the Congo, often called Congo-Brazzaville, features vast tropical rainforests that are part of the Congo Basin. It is home to rare primates like western lowland gorillas. The country's economy is largely supported by its substantial offshore oil wealth."
+      },
+      {
+        "name": "Côte d'Ivoire",
+        "countryCode": "CI",
+        "capital": "Yamoussoukro",
+        "population": 24294750,
+        "area": 322463,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+225",
+        "flag": "🇨🇮",
+        "gdp": 79000000000,
+        "shortDescription": "The world's largest cocoa producer, boasting vibrant culture and economic strength.",
+        "description": "Côte d'Ivoire is an economic powerhouse in West Africa, famous for its production of cocoa, coffee, and palm oil. Its cultural capital, Abidjan, is a bustling metropolis. The country is known for its lively music scene, beautiful basilica in Yamoussoukro, and stunning beaches."
+      },
+      {
+        "name": "Djibouti",
+        "countryCode": "DJ",
+        "capital": "Djibouti",
+        "population": 1124304,
+        "area": 23200,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Arabic",
+          "French"
+        ],
+        "currency": "Djiboutian Franc (DJF)",
+        "callingCode": "+253",
+        "flag": "🇩🇯",
+        "gdp": 3900000000,
+        "shortDescription": "A strategic port nation with otherworldly salt lakes and unique geology.",
+        "description": "Djibouti is a small nation located at a strategic maritime crossroads. Its dramatic landscape includes Lake Assal, one of the saltiest bodies of water on Earth, and alien-like volcanic formations. The economy is centered around its busy port, which serves as a key refueling and trading hub."
+      },
+      {
+        "name": "Egypt",
+        "countryCode": "EG",
+        "capital": "Cairo",
+        "population": 109262178,
+        "area": 1002450,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic"
+        ],
+        "currency": "Egyptian Pound (EGP)",
+        "callingCode": "+20",
+        "flag": "🇪🇬",
+        "gdp": 394000000000,
+        "shortDescription": "Ancient civilization famous for pyramids, temples, and the Nile River.",
+        "description": "Home to one of the world's oldest civilizations, Egypt boasts iconic monuments like the Giza Pyramids and Sphinx. The Nile River flows through its desert landscape, supporting agriculture and settlements. A cultural hub with rich history in art, architecture, and religion."
+      },
+      {
+        "name": "Equatorial Guinea",
+        "countryCode": "GQ",
+        "capital": "Malabo",
+        "population": 1674906,
+        "area": 28051,
+        "subregion": "Middle Africa",
+        "languages": [
+          "Spanish",
+          "French"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+240",
+        "flag": "🇬🇶",
+        "gdp": 17000000000,
+        "shortDescription": "Small nation with significant oil reserves and diverse ecosystems.",
+        "description": "Equatorial Guinea consists of a mainland region and several islands. It's one of Africa's largest oil producers, driving its economy. Features tropical rainforests and unique biodiversity, including rare species of monkeys and birds."
+      },
+      {
+        "name": "Eritrea",
+        "countryCode": "ER",
+        "capital": "Asmara",
+        "population": 3620312,
+        "area": 117600,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Tigrinya",
+          "Arabic",
+          "English"
+        ],
+        "currency": "Eritrean Nakfa (ERN)",
+        "callingCode": "+291",
+        "flag": "🇪🇷",
+        "gdp": 7100000000,
+        "shortDescription": "Northeast African nation with a rich cultural heritage and coastal access.",
+        "description": "Eritrea has a diverse landscape ranging from the Red Sea coast to highland plateaus. Known for its well-preserved Italian Modernist architecture in Asmara. Cultural influences include indigenous, Italian, and Middle Eastern elements."
+      },
+      {
+        "name": "Eswatini",
+        "countryCode": "SZ",
+        "capital": "Mbabane",
+        "population": 1190481,
+        "area": 17364,
+        "subregion": "Southern Africa",
+        "languages": [
+          "English",
+          "Swati"
+        ],
+        "currency": "Lilangeni (SZL)",
+        "callingCode": "+268",
+        "flag": "🇸🇿",
+        "gdp": 4900000000,
+        "shortDescription": "A small kingdom known for its wilderness reserves and vibrant cultural traditions.",
+        "description": "The Kingdom of Eswatini is one of Africa's last absolute monarchies, rich in cultural heritage. The country is famous for its annual Umhlanga (Reed Dance) ceremony, a vibrant celebration of Swazi culture. Its diverse landscapes range from mountainous highlands to savannas, hosting wildlife reserves like Hlane Royal National Park, home to lions, elephants, and rhinos. Eswatini maintains strong traditions while developing its economy through agriculture, forestry, and manufacturing."
+      },
+      {
+        "name": "Ethiopia",
+        "countryCode": "ET",
+        "capital": "Addis Ababa",
+        "population": 126527060,
+        "area": 1104300,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Amharic"
+        ],
+        "currency": "Ethiopian Birr (ETB)",
+        "callingCode": "+251",
+        "flag": "🇪🇹",
+        "gdp": 111000000000,
+        "shortDescription": "Ancient civilization with unique history, diverse landscapes, and coffee culture.",
+        "description": "Ethiopia is one of the world's oldest nations, with a rich history dating back to the Aksumite Empire. It's the purported home of the Biblical Ark of the Covenant and the birthplace of coffee. The country features dramatic landscapes including the Simien Mountains, the Danakil Depression, and the Blue Nile Falls. As the headquarters of the African Union, Ethiopia plays a significant diplomatic role on the continent while maintaining its unique cultural identity through its Orthodox Christian traditions, distinctive cuisine, and ancient Ge'ez script."
+      },
+      {
+        "name": "Gabon",
+        "countryCode": "GA",
+        "capital": "Libreville",
+        "population": 2341179,
+        "area": 267668,
+        "subregion": "Middle Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "Central African CFA Franc (XAF)",
+        "callingCode": "+241",
+        "flag": "🇬🇦",
+        "gdp": 19000000000,
+        "shortDescription": "A biodiversity hotspot with extensive rainforests and strong conservation efforts.",
+        "description": "Gabon is an ecologically diverse nation with approximately 88% of its territory covered by rainforest. It's home to significant populations of forest elephants, lowland gorillas, and chimpanzees. The country has established 13 national parks to protect its rich biodiversity, including Loango National Park where elephants wander onto beaches. Gabon's economy relies on oil production but is increasingly focusing on sustainable forestry and ecotourism, positioning itself as a leader in African conservation efforts."
+      },
+      {
+        "name": "Gambia",
+        "countryCode": "GM",
+        "capital": "Banjul",
+        "population": 2639916,
+        "area": 10689,
+        "subregion": "Western Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Dalasi (GMD)",
+        "callingCode": "+220",
+        "flag": "🇬🇲",
+        "gdp": 2200000000,
+        "shortDescription": "Smallest mainland African nation, known for its river, beaches, and rich birdlife.",
+        "description": "The Gambia is a narrow, slender country following the course of the Gambia River. It is renowned for its diverse ecosystems, from mangrove-lined waterways to sandy beaches. The country is a birdwatcher's paradise with over 500 species recorded. Its culture is deeply influenced by the river, which provides transportation, sustenance, and a setting for traditional music and storytelling. The Gambia is also historically significant as a site for the transatlantic slave trade, with places like Kunta Kinteh Island serving as poignant memorials."
+      },
+      {
+        "name": "Ghana",
+        "countryCode": "GH",
+        "capital": "Accra",
+        "population": 32833031,
+        "area": 238533,
+        "subregion": "Western Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Ghana Cedi (GHS)",
+        "callingCode": "+233",
+        "flag": "🇬🇭",
+        "gdp": 84000000000,
+        "shortDescription": "A beacon of stability and democracy in West Africa, rich in gold and cocoa.",
+        "description": "Ghana, formerly known as the Gold Coast, was the first sub-Saharan African nation to gain independence from colonial rule. It is now a stable democracy and a major producer of gold, cocoa, and more recently, oil. The country is famous for its vibrant culture, expressed through high-life music, colorful Kente cloth, and lively festivals. Ghana's history is preserved in the coastal forts and castles, which are UNESCO World Heritage Sites, telling the story of the transatlantic slave trade. Its friendly people and bustling cities make it a popular destination in West Africa."
+      },
+      {
+        "name": "Guinea",
+        "countryCode": "GN",
+        "capital": "Conakry",
+        "population": 13531906,
+        "area": 245857,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "Guinean Franc (GNF)",
+        "callingCode": "+224",
+        "flag": "🇬🇳",
+        "gdp": 19000000000,
+        "shortDescription": "A nation of immense mineral wealth, featuring the source of the Niger River.",
+        "description": "The Republic of Guinea, often called Guinea-Conakry, is blessed with abundant natural resources, including the world's largest reserves of bauxite. Its landscape is dominated by the Fouta Djallon highlands, the source of several major West African rivers like the Niger. The country boasts rich musical traditions that have influenced genres across Africa. Despite its mineral wealth, Guinea's economy is still developing, with agriculture employing a majority of its population. The culture is a diverse tapestry of ethnic groups, each with their own unique languages, music, and customs."
+      },
+      {
+        "name": "Guinea-Bissau",
+        "countryCode": "GW",
+        "capital": "Bissau",
+        "population": 2105566,
+        "area": 36125,
+        "subregion": "Western Africa",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+245",
+        "flag": "🇬🇼",
+        "gdp": 1600000000,
+        "shortDescription": "West African nation of islands and forests with a rich Creole culture.",
+        "description": "Guinea-Bissau is characterized by a maze of rivers and islands along its Atlantic coast, including the Bijagós Archipelago, a UNESCO Biosphere Reserve known for its pristine beaches and wildlife. The country's culture is a vibrant blend of African and Portuguese influences, evident in its music, cuisine, and Crioulo language. Despite political challenges, Guinea-Bissau maintains rich traditions and is one of the world's largest producers of cashew nuts."
+      },
+      {
+        "name": "Kenya",
+        "countryCode": "KE",
+        "capital": "Nairobi",
+        "population": 54985698,
+        "area": 580367,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "currency": "Kenyan Shilling (KES)",
+        "callingCode": "+254",
+        "flag": "🇰🇪",
+        "gdp": 114000000000,
+        "shortDescription": "East African hub known for wildlife safaris, diverse landscapes, and innovation.",
+        "description": "Kenya is world-renowned for its spectacular wildlife reserves like the Maasai Mara, where the Great Migration occurs annually. Its diverse geography ranges from tropical beaches and savannas to the Great Rift Valley and Mount Kenya. Nairobi serves as a major economic and tech hub in Africa. Kenyan culture is rich with traditions from over 40 ethnic groups, most notably the Maasai, and the country is famous for its long-distance runners who dominate international athletics."
+      },
+      {
+        "name": "Lesotho",
+        "countryCode": "LS",
+        "capital": "Maseru",
+        "population": 2281454,
+        "area": 30355,
+        "subregion": "Southern Africa",
+        "languages": [
+          "English",
+          "Sesotho"
+        ],
+        "currency": "Loti (LSL)",
+        "callingCode": "+266",
+        "flag": "🇱🇸",
+        "gdp": 2800000000,
+        "shortDescription": "Mountain kingdom entirely above 1000 meters, known for its stunning highlands.",
+        "description": "The Kingdom of Lesotho is completely surrounded by South Africa and is the only independent state in the world that lies entirely above 1,000 meters in elevation. Its dramatic landscape features the Drakensberg and Maloti mountains, with numerous waterfalls and hiking trails. Lesotho is known for its traditional Basotho culture, including the distinctive conical hat and blanket. The country's highlands provide water to much of South Africa through massive hydroelectric projects, and winter brings skiing opportunities to Africa's highest slopes."
+      },
+      {
+        "name": "Liberia",
+        "countryCode": "LR",
+        "capital": "Monrovia",
+        "population": 5456802,
+        "area": 111369,
+        "subregion": "Western Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Liberian Dollar (LRD)",
+        "callingCode": "+231",
+        "flag": "🇱🇷",
+        "gdp": 3700000000,
+        "shortDescription": "West Africa's first republic with a unique cultural heritage and beautiful coastline.",
+        "description": "Liberia holds a distinctive place in African history as the continent's first modern republic, established through a unique settlement initiative in the 19th century. The country features lush rainforests, vast rubber plantations, and over 500 km of pristine Atlantic coastline with stunning beaches. Liberian culture represents a fascinating blend of various influences, creating distinctive musical traditions, flavorful cuisine, and architectural styles. Despite historical challenges, Liberia is known for its resilience and is rebuilding its economy through agriculture, mining, and sustainable forestry initiatives."
+      },
+      {
+        "name": "Madagascar",
+        "countryCode": "MG",
+        "capital": "Antananarivo",
+        "population": 28915653,
+        "area": 587041,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "French",
+          "Malagasy"
+        ],
+        "currency": "Malagasy Ariary (MGA)",
+        "callingCode": "+261",
+        "flag": "🇲🇬",
+        "gdp": 15000000000,
+        "shortDescription": "Island nation renowned for its unique wildlife found nowhere else on Earth.",
+        "description": "Madagascar is the world's fourth largest island, having separated from the African mainland approximately 88 million years ago, resulting in extraordinary biodiversity. Approximately 90% of its wildlife is endemic, including lemurs, fossas, and countless unique plant species. The landscape varies dramatically from rainforests and highlands to spiny deserts and beautiful beaches. Malagasy culture reflects a blend of Southeast Asian, African, Arab, and French influences, evident in its architecture, cuisine, and complex social traditions."
+      },
+      {
+        "name": "Malawi",
+        "countryCode": "MW",
+        "capital": "Lilongwe",
+        "population": 20405317,
+        "area": 118484,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English",
+          "Chichewa"
+        ],
+        "currency": "Malawian Kwacha (MWK)",
+        "callingCode": "+265",
+        "flag": "🇲🇼",
+        "gdp": 13000000000,
+        "shortDescription": "The 'Warm Heart of Africa' known for its stunning lake and friendly people.",
+        "description": "Malawi, often called the 'Warm Heart of Africa,' is renowned for the exceptional friendliness of its people and its stunning natural beauty centered around Lake Malawi, which covers about one-third of the country. The lake is a UNESCO World Heritage site known for its crystal-clear waters and hundreds of unique cichlid fish species. The landscape ranges from the dramatic highlands of Mount Mulanje to wildlife-rich national parks. Malawian culture is deeply connected to music, dance, and storytelling, with vibrant traditional ceremonies throughout the year."
+      },
+      {
+        "name": "Mali",
+        "countryCode": "ML",
+        "capital": "Bamako",
+        "population": 22593590,
+        "area": 1240192,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+223",
+        "flag": "🇲🇱",
+        "gdp": 19000000000,
+        "shortDescription": "Historic West African empire known for its ancient trading cities and rich musical heritage.",
+        "description": "Mali was once the heart of great empires including the Ghana, Mali, and Songhai empires that controlled trans-Saharan trade routes. The country is home to the legendary city of Timbuktu, with its ancient Islamic universities and priceless manuscripts. Mali's cultural heritage is incredibly rich, particularly in music, having produced world-renowned artists and traditional instruments like the kora. The Niger River flows through the country, providing vital water resources for agriculture and transportation in this largely arid nation."
+      },
+      {
+        "name": "Mauritania",
+        "countryCode": "MR",
+        "capital": "Nouakchott",
+        "population": 4614974,
+        "area": 1030700,
+        "subregion": "Western Africa",
+        "languages": [
+          "Arabic"
+        ],
+        "currency": "Ouguiya (MRU)",
+        "callingCode": "+222",
+        "flag": "🇲🇷",
+        "gdp": 18000000000,
+        "shortDescription": "Desert nation where ancient Saharan traditions meet coastal fishing communities.",
+        "description": "Mauritania is a vast desert country where the Sahara covers approximately 90% of the territory. The ancient city of Chinguetti, a UNESCO World Heritage site, served as a trading and Islamic scholarship center for centuries. The Atlantic coast provides rich fishing grounds that form the backbone of the economy. Mauritanian culture blends Arab-Berber influences with African traditions, evident in its distinctive music, intricate handicrafts, and traditional nomadic lifestyle that continues in some regions."
+      },
+      {
+        "name": "Mauritius",
+        "countryCode": "MU",
+        "capital": "Port Louis",
+        "population": 1265985,
+        "area": 2040,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Mauritian Rupee (MUR)",
+        "callingCode": "+230",
+        "flag": "🇲🇺",
+        "gdp": 14000000000,
+        "shortDescription": "Tropical island paradise known for its diverse culture and spectacular marine life.",
+        "description": "Mauritius is a volcanic island nation renowned for its stunning beaches, coral reefs, and luxurious resorts. The population is remarkably diverse, with Indian, African, Chinese, and European communities creating a unique cultural fusion evident in the cuisine, festivals, and religious practices. The economy has successfully transitioned from sugar production to textiles, tourism, and financial services. The island is home to unique wildlife including the famous (but now extinct) dodo bird, and current conservation efforts protect rare species like the Mauritius kestrel."
+      },
+      {
+        "name": "Mozambique",
+        "countryCode": "MZ",
+        "capital": "Maputo",
+        "population": 32866000,
+        "area": 801590,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Mozambican Metical (MZN)",
+        "callingCode": "+258",
+        "flag": "🇲🇿",
+        "gdp": 17000000000,
+        "shortDescription": "Stunning Indian Ocean coastline with rich cultural fusion and diverse ecosystems.",
+        "description": "Mozambique boasts over 2,500 km of pristine Indian Ocean coastline featuring spectacular coral reefs and palm-fringed beaches. The country's culture reflects a blend of Bantu, Arab, Portuguese, and Indian influences, evident in its music, architecture, and cuisine. The island of Mozambique, a UNESCO World Heritage site, contains remarkable examples of Portuguese colonial architecture. Despite past challenges, Mozambique is developing its substantial natural gas resources while protecting incredible wildlife in national parks like Gorongosa, which has undergone spectacular ecological restoration."
+      },
+      {
+        "name": "Namibia",
+        "countryCode": "NA",
+        "capital": "Windhoek",
+        "population": 2587800,
+        "area": 825615,
+        "subregion": "Southern Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Namibian Dollar (NAD)",
+        "callingCode": "+264",
+        "flag": "🇳🇦",
+        "gdp": 13000000000,
+        "shortDescription": "Land of dramatic deserts, ancient rock art, and some of Africa's best wildlife viewing.",
+        "description": "Namibia is home to the world's oldest desert, the Namib, with its iconic red sand dunes at Sossusvlei reaching nearly 400 meters high. The country features some of Africa's most stunning landscapes, from the wildlife-rich Etosha Pan to the dramatic Skeleton Coast with its shipwrecks. Namibia is a leader in conservation, with community-based natural resource management that has helped restore populations of rhinos, elephants, and other wildlife. The country contains one of the world's largest concentrations of rock art, particularly at Twyfelfontein, a UNESCO World Heritage site showcasing thousands of ancient engravings."
+      },
+      {
+        "name": "Niger",
+        "countryCode": "NE",
+        "capital": "Niamey",
+        "population": 25252722,
+        "area": 1267000,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+227",
+        "flag": "🇳🇪",
+        "gdp": 16000000000,
+        "shortDescription": "Saharan nation with ancient trading cities and the stunning W National Park ecosystem.",
+        "description": "Niger is dominated by the Sahara Desert in its north, while the south features the increasingly endangered Sahelian savanna. The country contains part of the W National Park, a transboundary UNESCO World Heritage site known for its populations of elephants, lions, and antelopes. The ancient city of Agadez, with its remarkable Sudanese architecture and famous mud-brick mosque, served as a crucial crossroads for trans-Saharan trade. Nigerien culture reflects diverse ethnic groups including the Hausa, Zarma, Tuareg, and Fulani, each with distinct musical traditions, crafts, and annual festivals."
+      },
+      {
+        "name": "Nigeria",
+        "countryCode": "NG",
+        "capital": "Abuja",
+        "population": 223804632,
+        "area": 923768,
+        "subregion": "Western Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Naira (NGN)",
+        "callingCode": "+234",
+        "flag": "🇳🇬",
+        "gdp": 1110000000000,
+        "shortDescription": "Africa's cultural powerhouse and largest economy, renowned for its vibrant music, film industry, and diverse traditions.",
+        "description": "Nigeria stands as Africa's most populous nation and largest economy, a dynamic country of extraordinary cultural richness and diversity. The country is celebrated worldwide for its vibrant creative industries, particularly Nollywood—the world's second-largest film industry—and its influential music scene that has produced Afrobeats, a genre captivating global audiences. Nigeria's cultural heritage is magnificently preserved through numerous UNESCO-recognized traditions, including the Durbar festival in Kano 2, the Sango Festival in Oyo 2, the Kwagh-Hir theatrical performance 24, and the Argungu international fishing festival 234. The country is also home to the spectacular Ijele masquerade, considered the largest in sub-Saharan Africa 34, and the ancient Ifa divination system, a complex spiritual practice central to Yoruba culture 34. Nigeria's landscape ranges from tropical rainforests and mangrove swamps to the Sahel savanna, while its bustling cities like Lagos pulse with entrepreneurial energy, innovative tech hubs, and unparalleled artistic creativity. Nigerian cuisine, with its flavorful jollof rice, spicy soups, and street food culture, reflects the country's agricultural abundance and cultural diversity. Despite challenges, Nigeria remains a nation of incredible resilience, cultural pride, and growing global influence, truly embodying the spirit of 'Naija' excellence."
+      },
+      {
+        "name": "Rwanda",
+        "countryCode": "RW",
+        "capital": "Kigali",
+        "population": 13461888,
+        "area": 26338,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Kinyarwanda",
+          "French",
+          "English"
+        ],
+        "currency": "Rwandan Franc (RWF)",
+        "callingCode": "+250",
+        "flag": "🇷🇼",
+        "gdp": 12000000000,
+        "shortDescription": "Land of a thousand hills known for remarkable recovery and mountain gorillas.",
+        "description": "Rwanda has achieved an extraordinary transformation, becoming one of Africa's cleanest and safest nations. The country's landscape is dominated by lush, rolling hills that give it the nickname 'Land of a Thousand Hills.' Rwanda is world-famous for Volcanoes National Park, home to endangered mountain gorillas that visitors can track. The capital city Kigali stands as a model of urban development in Africa, with innovative environmental policies and a growing tech scene. Rwandan culture emphasizes unity and reconciliation, with traditional dance, intricate basket weaving, and the annual Kwita Izina gorilla naming ceremony celebrating conservation successes."
+      },
+      {
+        "name": "São Tomé and Príncipe",
+        "countryCode": "ST",
+        "capital": "São Tomé",
+        "population": 227380,
+        "area": 964,
+        "subregion": "Middle Africa",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Dobra (STN)",
+        "callingCode": "+239",
+        "flag": "🇸🇹",
+        "gdp": 680000000,
+        "shortDescription": "Tropical paradise islands with pristine rainforests and colonial plantations.",
+        "description": "São Tomé and Príncipe is Africa's second smallest country, consisting of two main islands in the Gulf of Guinea. These volcanic islands feature dramatic landscapes with lush rainforests, perfect volcanic cones, and stunning black sand beaches. The islands' history as a cocoa-producing colony is preserved in abandoned roças (plantations) now being reclaimed by jungle. The waters surrounding the islands are rich with marine life, including whale sharks and sea turtles. The culture reflects a unique blend of African and Portuguese influences, with colorful celebrations, distinctive music called ússua and socopé, and delicious cuisine featuring tropical fruits and fresh seafood."
+      },
+      {
+        "name": "Senegal",
+        "countryCode": "SN",
+        "capital": "Dakar",
+        "population": 17653671,
+        "area": 196722,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+221",
+        "flag": "🇸🇳",
+        "gdp": 28000000000,
+        "shortDescription": "Cultural hub of West Africa known for its music, art, and historic island of Gorée.",
+        "description": "Senegal is celebrated as a cultural capital of West Africa, renowned for its music, art, and intellectual life. The country is home to the historic island of Gorée, a UNESCO World Heritage site and poignant memorial to the transatlantic slave trade. Senegal's vibrant music scene has produced international stars and traditional genres like mbalax. The Pink Lake (Retba) astonishes visitors with its unique color, while the sacred birds of Djoudj National Bird Sanctuary create one of the world's great wildlife spectacles. Senegalese culture is famous for its tradition of teranga (hospitality), exquisite cuisine including thieboudienne, and the magnificent Grand Mosque of Touba."
+      },
+      {
+        "name": "Seychelles",
+        "countryCode": "SC",
+        "capital": "Victoria",
+        "population": 106800,
+        "area": 452,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "French",
+          "English",
+          "Seychellois Creole"
+        ],
+        "currency": "Seychellois Rupee (SCR)",
+        "callingCode": "+248",
+        "flag": "🇸🇨",
+        "gdp": 1800000000,
+        "shortDescription": "Pristine archipelago paradise with unique biodiversity and spectacular beaches.",
+        "description": "Seychelles is an exquisite archipelago of 115 islands renowned for their breathtaking beauty and extraordinary biodiversity. The islands feature some of the world's most beautiful beaches with dramatic granite boulders and crystal-clear waters. Seychelles is a conservation success story, protecting unique species like the giant Aldabra tortoises and the rare Seychelles black parrot. The Vallée de Mai Nature Reserve, a UNESCO World Heritage site, contains the legendary coco de mer palm producing the world's largest nut. The culture is a vibrant blend of African, Asian, and European influences, reflected in its Creole language, cuisine, and music."
+      },
+      {
+        "name": "Sierra Leone",
+        "countryCode": "SL",
+        "capital": "Freetown",
+        "population": 8420641,
+        "area": 71740,
+        "subregion": "Western Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Leone (SLL)",
+        "callingCode": "+232",
+        "flag": "🇸🇱",
+        "gdp": 4200000000,
+        "shortDescription": "West African nation known for its stunning beaches, diamond resources, and resilient spirit.",
+        "description": "Sierra Leone boasts some of West Africa's most beautiful beaches, including the pristine River Number Two Beach with its perfect white sand and calm waters. The country's name means 'Lion Mountains,' derived from the Portuguese description of the dramatic hills surrounding Freetown harbor. Sierra Leone has rich natural resources including diamonds, which have shaped both its history and economy. The culture is wonderfully diverse with vibrant traditions like the colorful Bubu music and the famous Devilmasquerade. Despite historical challenges, Sierra Leone is known for its incredibly friendly people and their remarkable resilience and optimism."
+      },
+      {
+        "name": "Somalia",
+        "countryCode": "SO",
+        "capital": "Mogadishu",
+        "population": 17065516,
+        "area": 637657,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Somali",
+          "Arabic"
+        ],
+        "currency": "Somali Shilling (SOS)",
+        "callingCode": "+252",
+        "flag": "🇸🇴",
+        "gdp": 7900000000,
+        "shortDescription": "Nation with Africa's longest coastline, rich maritime history, and resilient nomadic culture.",
+        "description": "Somalia possesses Africa's longest coastline, stretching over 3,300 km along the Indian Ocean and Gulf of Aden. This strategic location made it an important center for ancient trade between Africa, Arabia, and Asia. Somali culture is strongly influenced by nomadic traditions, with poetry holding a particularly esteemed place in artistic expression. The country is known for its distinctive architecture featuring whitewashed buildings and intricate designs. Somalia has given the world famous frankincense and myrrh for centuries, and its waters are rich with marine life. The resilience and entrepreneurial spirit of the Somali people are recognized worldwide."
+      },
+      {
+        "name": "South Sudan",
+        "countryCode": "SS",
+        "capital": "Juba",
+        "population": 10975920,
+        "area": 644329,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "South Sudanese Pound (SSP)",
+        "callingCode": "+211",
+        "flag": "🇸🇸",
+        "gdp": 12000000000,
+        "shortDescription": "World's newest nation with vast wetlands and rich cultural diversity.",
+        "description": "South Sudan gained independence in 2011, making it the world's youngest country. The Sudd, one of Africa's largest wetlands, dominates its landscape and provides critical habitat for migratory birds and wildlife. The country is home to over 60 indigenous ethnic groups, each with distinct cultural traditions, cattle-herding practices, and vibrant ceremonial dances. Despite significant challenges, South Sudan possesses substantial oil reserves and agricultural potential in its fertile regions."
+      },
+      {
+        "name": "Sudan",
+        "countryCode": "SD",
+        "capital": "Khartoum",
+        "population": 48109006,
+        "area": 1886068,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic",
+          "English"
+        ],
+        "currency": "Sudanese Pound (SDG)",
+        "callingCode": "+249",
+        "flag": "🇸🇩",
+        "gdp": 76000000000,
+        "shortDescription": "Land of ancient pyramids and the confluence of the Blue and White Nile rivers.",
+        "description": "Sudan is home to more pyramids than Egypt, with over 200 ancient Nubian pyramids located in the northern desert regions. The meeting of the Blue and White Nile rivers at Khartoum creates a stunning geographical spectacle. Sudan's diverse landscapes range from the Sahara Desert in the north to savannas and mountains in the south. The country has a rich cultural heritage spanning thousands of years, with traditional Sufi ceremonies, intricate handicrafts, and a renowned music scene that blends Arab and African influences."
+      },
+      {
+        "name": "Tanzania",
+        "countryCode": "TZ",
+        "capital": "Dodoma",
+        "population": 67438106,
+        "area": 947303,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "Swahili",
+          "English"
+        ],
+        "currency": "Tanzanian Shilling (TZS)",
+        "callingCode": "+255",
+        "flag": "🇹🇿",
+        "gdp": 85000000000,
+        "shortDescription": "Home to Mount Kilimanjaro, spectacular wildlife migrations, and pristine Indian Ocean islands.",
+        "description": "Tanzania boasts some of Africa's most iconic natural wonders, including Mount Kilimanjaro (Africa's highest peak), the Serengeti National Park (site of the Great Migration), and the Ngorongoro Crater (a UNESCO World Heritage site). The islands of Zanzibar offer pristine beaches and a fascinating blend of Swahili, Arab, and Persian cultures in Stone Town. Tanzania is also home to important archaeological sites, including Olduvai Gorge where some of the earliest human fossils were discovered."
+      },
+      {
+        "name": "Togo",
+        "countryCode": "TG",
+        "capital": "Lomé",
+        "population": 9053796,
+        "area": 56785,
+        "subregion": "Western Africa",
+        "languages": [
+          "French"
+        ],
+        "currency": "West African CFA Franc (XOF)",
+        "callingCode": "+228",
+        "flag": "🇹🇬",
+        "gdp": 17000000000,
+        "shortDescription": "West African nation with vibrant markets, traditional animist cultures, and beautiful coastline.",
+        "description": "Togo stretches from a narrow Atlantic coastline inland to rolling hills and plateaus, offering diverse landscapes in a compact area. The country is known for its vibrant fetish markets where traditional healers source ingredients for spiritual practices. Togolese culture is rich with traditional festivals, including the famous Epe Ekpe festival of the Guin people. The capital Lomé features one of West Africa's most impressive markets, offering everything from traditional fabrics to handicrafts. Togo's southern beaches provide nesting grounds for sea turtles, while the northern savannas support wildlife including elephants and antelopes."
+      },
+      {
+        "name": "Tunisia",
+        "countryCode": "TN",
+        "capital": "Tunis",
+        "population": 12356117,
+        "area": 163610,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic"
+        ],
+        "currency": "Tunisian Dinar (TND)",
+        "callingCode": "+216",
+        "flag": "🇹🇳",
+        "gdp": 137000000000,
+        "shortDescription": "North African nation with well-preserved Roman ruins and Mediterranean beaches.",
+        "description": "Tunisia contains some of the Roman Empire's most impressive archaeological sites outside Italy, including the extensive ruins of Carthage, Dougga, and El Jem amphitheater. The Mediterranean coastline features beautiful beaches and resort towns alongside traditional fishing villages. Tunisian culture reflects a blend of Arab, Berber, African, and European influences, evident in its distinctive music, cuisine, and architecture. The Sahara Desert covers much of the south, where ancient Berber communities maintain traditional lifestyles in underground homes and dramatic mountain oases."
+      },
+      {
+        "name": "Uganda",
+        "countryCode": "UG",
+        "capital": "Kampala",
+        "population": 45853778,
+        "area": 241550,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "currency": "Ugandan Shilling (UGX)",
+        "callingCode": "+256",
+        "flag": "🇺🇬",
+        "gdp": 126000000000,
+        "shortDescription": "Pearl of Africa with mountain gorillas, Lake Victoria, and diverse landscapes.",
+        "description": "Uganda is renowned for its mountain gorilla populations in Bwindi Impenetrable National Park, offering one of Africa's most memorable wildlife experiences. The country contains the source of the Nile River at Jinja, where the world's longest river begins its journey to the Mediterranean. Uganda's diverse ecosystems range from the snow-capped Rwenzori Mountains to the vast Lake Victoria, Africa's largest lake. The country is a cultural mosaic with over 50 indigenous languages and vibrant traditional music and dance performances. Ugandan hospitality is legendary, making it a welcoming destination in East Africa."
+      },
+      {
+        "name": "Zambia",
+        "countryCode": "ZM",
+        "capital": "Lusaka",
+        "population": 20017675,
+        "area": 752612,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English"
+        ],
+        "currency": "Zambian Kwacha (ZMW)",
+        "callingCode": "+260",
+        "flag": "🇿🇲",
+        "gdp": 27000000000,
+        "shortDescription": "Home to the spectacular Victoria Falls and abundant wildlife in pristine national parks.",
+        "description": "Zambia is home to the magnificent Victoria Falls, one of the world's largest and most impressive waterfalls known locally as Mosi-oa-Tunya ('The Smoke That Thunders'). The country offers exceptional safari experiences in its numerous national parks, including South Luangwa, where walking safaris were pioneered. Zambia's landscapes range from the lush Zambezi River valley to the vast plains of the Kafue National Park. The country maintains strong cultural traditions with vibrant ceremonies like the Kuomboka festival of the Lozi people, where the king moves from his floodplain palace to higher ground."
+      },
+      {
+        "name": "Zimbabwe",
+        "countryCode": "ZW",
+        "capital": "Harare",
+        "population": 16320537,
+        "area": 390757,
+        "subregion": "Eastern Africa",
+        "languages": [
+          "English",
+          "Shona",
+          "Ndebele"
+        ],
+        "currency": "Zimbabwean Dollar (ZWL)",
+        "callingCode": "+263",
+        "flag": "🇿🇼",
+        "gdp": 34000000000,
+        "shortDescription": "Land of ancient ruins, dramatic landscapes, and the shared wonder of Victoria Falls.",
+        "description": "Zimbabwe shares the magnificent Victoria Falls with Zambia and boasts one of Africa's most impressive ancient archaeological sites at Great Zimbabwe, the stone ruins of a medieval city that give the country its name. The country features diverse landscapes from the Eastern Highlands mountains to Lake Kariba, one of the world's largest man-made lakes. Zimbabwe is renowned for its exceptional wildlife viewing in Hwange National Park and Mana Pools, where visitors can see elephants, lions, and rare wild dogs. The country has a rich artistic tradition, particularly in stone sculpture, with Shona sculpture being internationally acclaimed."
+      }
+    ]
+  },
+  {
+    "name": "Australia/Oceania",
+    "population": 46609644,
+    "area": 8486460,
+    "numberOfCountries": 14,
+    "countries": [
+      {
+        "name": "Australia",
+        "countryCode": "AU",
+        "capital": "Canberra",
+        "population": 24255949,
+        "area": 7692024,
+        "subregion": "Australia and New Zealand",
+        "languages": [
+          "English"
+        ],
+        "currency": "Australian Dollar (AUD)",
+        "callingCode": "+61",
+        "flag": "🇦🇺",
+        "gdp": 1540000000000,
+        "shortDescription": "The world's largest island and smallest continent, known for its unique wildlife and diverse landscapes.",
+        "description": "The Commonwealth of Australia is a vast and geographically diverse country, encompassing arid deserts, tropical rainforests, mountain ranges, and over 25,000 km of coastline. It is globally renowned for its unique wildlife, including marsupials like kangaroos and koalas, and the Great Barrier Reef, the world's largest coral reef system. Its major cities, such as Sydney with its iconic opera house and Melbourne, known for its cultural scene, are vibrant hubs on the coast. Australia has a highly developed economy driven by natural resources, agriculture, and tourism."
+      },
+      {
+        "name": "Fiji",
+        "countryCode": "FJ",
+        "capital": "Suva",
+        "population": 909389,
+        "area": 18272,
+        "subregion": "Melanesia",
+        "languages": [
+          "English",
+          "Fijian",
+          "Fiji Hindi"
+        ],
+        "currency": "Fijian Dollar (FJD)",
+        "callingCode": "+679",
+        "flag": "🇫🇯",
+        "gdp": 5500000000,
+        "shortDescription": "A tropical archipelago renowned for its pristine beaches, coral reefs, and friendly culture.",
+        "description": "The Republic of Fiji is an archipelago of over 330 islands, known for its rugged volcanic landscapes, palm-lined beaches, and crystal-clear lagoons teeming with marine life. It is a popular tourist destination for diving, snorkeling, and relaxation. Fijian culture is a vibrant mix of indigenous traditions and influences from Indian, European, and other Asian settlers, reflected in its cuisine, music, and communal way of life. The economy is primarily supported by tourism, sugar exports, and a growing service industry."
+      },
+      {
+        "name": "Kiribati",
+        "countryCode": "KI",
+        "capital": "South Tarawa",
+        "population": 133515,
+        "area": 811,
+        "subregion": "Micronesia",
+        "languages": [
+          "English",
+          "Gilbertese"
+        ],
+        "currency": "Australian Dollar (AUD)",
+        "callingCode": "+686",
+        "flag": "🇰🇮",
+        "gdp": 220000000,
+        "shortDescription": "A dispersed island nation spanning all four hemispheres, facing significant challenges from sea-level rise.",
+        "description": "The Republic of Kiribati is a nation composed of 33 atolls and reef islands, scattered over a vast expanse of the central Pacific Ocean. Its territory straddles the equator and the International Date Line. Kiribati's culture is deeply connected to the ocean, with traditional navigation skills still celebrated. The country is one of the most vulnerable in the world to climate change, with rising sea levels threatening its very existence. Its economy is small, relying on fisheries licensing, copra (coconut) production, and foreign aid."
+      },
+      {
+        "name": "Marshall Islands",
+        "countryCode": "MH",
+        "capital": "Majuro",
+        "population": 52891,
+        "area": 181,
+        "subregion": "Micronesia",
+        "languages": [
+          "English",
+          "Marshallese"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+692",
+        "flag": "🇲🇭",
+        "gdp": 260000000,
+        "shortDescription": "A sprawling chain of volcanic islands and atolls with a complex history and a delicate ecosystem.",
+        "description": "The Republic of the Marshall Islands is a nation of 29 atolls and 5 isolated islands, located near the equator in the Pacific Ocean. It is known for its stunning marine biodiversity and as the site of U.S. nuclear testing in the mid-20th century. The country operates under a Compact of Free Association with the United States, which provides financial assistance and allows citizens to live and work in the U.S. The economy is dependent on U.S. aid, fisheries, and a small agricultural sector."
+      },
+      {
+        "name": "Micronesia",
+        "countryCode": "FM",
+        "capital": "Palikir",
+        "population": 106348,
+        "area": 702,
+        "subregion": "Micronesia",
+        "languages": [
+          "English"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+691",
+        "flag": "🇫🇲",
+        "gdp": 450000000,
+        "shortDescription": "A sovereign island nation composed of four states spread across the western Pacific.",
+        "description": "The Federated States of Micronesia is an independent nation in free association with the United States, consisting of four states—Yap, Chuuk, Pohnpei, and Kosrae—spread across the Caroline Islands. The country is known for its ancient archaeological sites, such as the Nan Madol ruins on Pohnpei, and its rich cultural traditions, including the famous stone money of Yap. Its economy relies heavily on U.S. grants under the Compact of Free Association, as well as subsistence agriculture and fishing."
+      },
+      {
+        "name": "Nauru",
+        "countryCode": "NR",
+        "capital": "Yaren",
+        "population": 10873,
+        "area": 21,
+        "subregion": "Micronesia",
+        "languages": [
+          "English",
+          "Nauruan"
+        ],
+        "currency": "Australian Dollar (AUD)",
+        "callingCode": "+674",
+        "flag": "🇳🇷",
+        "gdp": 150000000,
+        "shortDescription": "The world's third-smallest country by area, formerly rich from phosphate mining.",
+        "description": "The Republic of Nauru is a small oval-shaped island in Micronesia. It became one of the wealthiest nations per capita in the 1970s and 1980s due to extensive phosphate mining, which has since been exhausted, leaving behind a scarred landscape. The country now faces significant economic and health challenges, including high rates of diabetes and obesity. Its government has historically relied on revenues from an offshore Australian immigration detention center and is exploring opportunities in fishing licensing and financial services."
+      },
+      {
+        "name": "New Zealand",
+        "countryCode": "NZ",
+        "capital": "Wellington",
+        "population": 5129724,
+        "area": 270467,
+        "subregion": "Australia and New Zealand",
+        "languages": [
+          "English",
+          "Māori"
+        ],
+        "currency": "New Zealand Dollar (NZD)",
+        "callingCode": "+64",
+        "flag": "🇳🇿",
+        "gdp": 247000000000,
+        "shortDescription": "Stunning landscapes featuring mountains, fjords, and rolling hills, with a rich Māori culture.",
+        "description": "New Zealand is an island nation renowned for its dramatic natural beauty, including the Southern Alps, pristine fjords, and geothermal wonders. The country has a unique bicultural foundation based on the Treaty of Waitangi, which recognizes the indigenous Māori people and their traditions. New Zealand is a global leader in environmental conservation and sustainable practices. Its economy is driven by agriculture, tourism, and film production, famously serving as the filming location for the 'Lord of the Rings' trilogy."
+      },
+      {
+        "name": "Palau",
+        "countryCode": "PW",
+        "capital": "Ngerulmud",
+        "population": 17958,
+        "area": 459,
+        "subregion": "Micronesia",
+        "languages": [
+          "English",
+          "Palauan"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+680",
+        "flag": "🇵🇼",
+        "gdp": 310000000,
+        "shortDescription": "Pristine archipelago known for its marine life and conservation efforts.",
+        "description": "The Republic of Palau is an archipelago of over 500 islands, part of the Micronesia region. It is renowned for its rich marine biodiversity, including the famous Jellyfish Lake, where visitors can swim with harmless jellyfish. Palau is a global leader in marine conservation, having established one of the world's first shark sanctuaries and a protected marine area. The culture is a blend of Micronesian, Melanesian, and Asian influences, with traditional practices like bai (men's meeting house) carving still thriving."
+      },
+      {
+        "name": "Papua New Guinea",
+        "countryCode": "PG",
+        "capital": "Port Moresby",
+        "population": 7321459,
+        "area": 462840,
+        "subregion": "Melanesia",
+        "languages": [
+          "English",
+          "Hiri Motu",
+          "Tok Pisin"
+        ],
+        "currency": "Papua New Guinean Kina (PGK)",
+        "callingCode": "+675",
+        "flag": "🇵🇬",
+        "gdp": 28000000000,
+        "shortDescription": "One of the most culturally diverse nations with vast rainforests and unique wildlife.",
+        "description": "Papua New Guinea occupies the eastern half of the island of New Guinea and numerous offshore islands. It is one of the most culturally diverse countries globally, with over 850 indigenous languages spoken. The landscape is dominated by lush rainforests, active volcanoes, and coral reefs. The country is home to unique wildlife, including birds of paradise and tree kangaroos. Despite its rich natural resources, including gold and copper, much of the population relies on subsistence agriculture."
+      },
+      {
+        "name": "Samoa",
+        "countryCode": "WS",
+        "capital": "Apia",
+        "population": 218764,
+        "area": 2842,
+        "subregion": "Polynesia",
+        "languages": [
+          "Samoan",
+          "English"
+        ],
+        "currency": "Samoan Tālā (WST)",
+        "callingCode": "+685",
+        "flag": "🇼🇸",
+        "gdp": 900000000,
+        "shortDescription": "Polynesian paradise known for its traditional fa'a Samoa way of life and natural beauty.",
+        "description": "The Independent State of Samoa is a Polynesian nation comprising two main islands and several smaller ones. It is known for preserving the fa'a Samoa (Samoan way of life), which emphasizes communal living, respect for elders, and traditional ceremonies. The landscape features lush rainforests, volcanic mountains, and stunning waterfalls. Samoa's economy is based on agriculture, fishing, and remittances from overseas Samoans. The country is also famous for its rugby teams and cultural practices like tattooing."
+      },
+      {
+        "name": "Solomon Islands",
+        "countryCode": "SB",
+        "capital": "Honiara",
+        "population": 728041,
+        "area": 28896,
+        "subregion": "Melanesia",
+        "languages": [
+          "English"
+        ],
+        "currency": "Solomon Islands Dollar (SBD)",
+        "callingCode": "+677",
+        "flag": "🇸🇧",
+        "gdp": 1700000000,
+        "shortDescription": "Archipelago of tropical islands with World War II historical sites and rich marine biodiversity.",
+        "description": "The Solomon Islands is a nation of six major islands and over 900 smaller islands, known for their significant World War II history, including the Battle of Guadalcanal. The islands are covered in dense tropical rainforests and surrounded by coral reefs teeming with marine life. The economy relies on logging, fishing, and agriculture. Traditional customs and art forms, such as woodcarving and shell money, remain integral to the local culture."
+      },
+      {
+        "name": "Tonga",
+        "countryCode": "TO",
+        "capital": "Nuku'alofa",
+        "population": 105695,
+        "area": 747,
+        "subregion": "Polynesia",
+        "languages": [
+          "Tongan",
+          "English"
+        ],
+        "currency": "Tongan Pa'anga (TOP)",
+        "callingCode": "+676",
+        "flag": "🇹🇴",
+        "gdp": 500000000,
+        "shortDescription": "The last Polynesian monarchy, known as the 'Friendly Islands' with a unique culture.",
+        "description": "The Kingdom of Tonga is the only sovereign monarchy in Polynesia, with a history that dates back over 1,000 years. It consists of 169 islands, of which 36 are inhabited. Tonga is known for its friendly people, hence the nickname 'Friendly Islands.' The culture is deeply rooted in traditions, including kava ceremonies, traditional dance, and elaborate funeral rites. The economy is based on agriculture, fishing, and remittances from Tongans living abroad."
+      },
+      {
+        "name": "Tuvalu",
+        "countryCode": "TV",
+        "capital": "Funafuti",
+        "population": 11312,
+        "area": 26,
+        "subregion": "Polynesia",
+        "languages": [
+          "Tuvaluan",
+          "English"
+        ],
+        "currency": "Tuvaluan Dollar (TVD) / Australian Dollar (AUD)",
+        "callingCode": "+688",
+        "flag": "🇹🇻",
+        "gdp": 60000000,
+        "shortDescription": "One of the world's smallest and most remote nations, threatened by sea-level rise.",
+        "description": "Tuvalu is a small island nation consisting of three reef islands and six true atolls, with a maximum elevation of only 4.5 meters above sea level. It is one of the most vulnerable countries to climate change, particularly sea-level rise. The economy is limited, relying on fishing, remittances, and revenue from its .tv internet domain. Despite its size, Tuvalu has a rich Polynesian culture, with traditional music, dance, and handicrafts."
+      },
+      {
+        "name": "Vanuatu",
+        "countryCode": "VU",
+        "capital": "Port Vila",
+        "population": 307145,
+        "area": 12189,
+        "subregion": "Melanesia",
+        "languages": [
+          "Bislama",
+          "English",
+          "French"
+        ],
+        "currency": "Vanuatu Vatu (VUV)",
+        "callingCode": "+678",
+        "flag": "🇻🇺",
+        "gdp": 1000000000,
+        "shortDescription": "Volcanic archipelago with diverse cultures and languages, known for its active volcanoes and custom traditions.",
+        "description": "The Republic of Vanuatu is an archipelago of 83 islands, known for its cultural diversity, with over 100 distinct languages spoken. The landscape is dominated by active volcanoes, tropical rainforests, and coral reefs. Vanuatu is famous for its unique custom traditions, including land diving (a precursor to bungee jumping) and sand drawing. The economy is primarily based on agriculture, tourism, and offshore financial services."
+      }
+    ]
+  },
+  {
+    "name": "Europe",
+    "population": 744398832,
+    "area": 10186000,
+    "numberOfCountries": 44,
+    "countries": [
+      {
+        "name": "Albania",
+        "countryCode": "AL",
+        "capital": "Tirana",
+        "population": 2837743,
+        "area": 28748,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Albanian"
+        ],
+        "currency": "Lek (ALL)",
+        "callingCode": "+355",
+        "flag": "🇦🇱",
+        "gdp": 18200000000,
+        "shortDescription": "A hidden gem of the Balkans with stunning beaches and ancient castles.",
+        "description": "Albania boasts a spectacular unspoiled coastline along the Adriatic and Ionian Seas, often called the Albanian Riviera. Its history is visible in well-preserved Ottoman architecture in cities like Berat and Gjirokastër, both UNESCO World Heritage sites. The country is also home to the Accursed Mountains, which offer fantastic hiking opportunities. Albanian culture is uniquely characterized by its ancient code of honor, 'Besa', and its vibrant traditional music and dance."
+      },
+      {
+        "name": "Andorra",
+        "countryCode": "AD",
+        "capital": "Andorra la Vella",
+        "population": 80105,
+        "area": 468,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Catalan"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+376",
+        "flag": "🇦🇩",
+        "gdp": 3300000000,
+        "shortDescription": "Tiny mountainous principality known for skiing and tax-free shopping.",
+        "description": "The Principality of Andorra is a landlocked microstate nestled high in the Pyrenees Mountains between France and Spain. Its economy is fueled almost entirely by tourism, drawn to its excellent ski resorts like Grandvalira and Vallnord, as well as its duty-free shopping. Andorra has a unique co-monarchy, with the President of France and the Bishop of Urgell in Spain serving as Co-Princes. The country offers breathtaking mountain scenery, with numerous hiking and cycling trails in the summer months."
+      },
+      {
+        "name": "Austria",
+        "countryCode": "AT",
+        "capital": "Vienna",
+        "population": 8935112,
+        "area": 83871,
+        "subregion": "Western Europe",
+        "languages": [
+          "German"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+43",
+        "flag": "🇦🇹",
+        "gdp": 481000000000,
+        "shortDescription": "The heart of classical music and Baroque architecture, set in the Alps.",
+        "description": "Austria is a landlocked country renowned for its imperial history, stunning Alpine scenery, and profound cultural contributions, particularly in music. It was the home of composers like Mozart, Beethoven, and Strauss. The capital, Vienna, is famed for its Baroque streetscapes, palaces (including Schönbrunn), and its vibrant coffee house culture. Beyond the cities, the Austrian Alps provide world-class skiing, hiking, and picturesque villages. Austria has a highly developed social market economy and a high standard of living."
+      },
+      {
+        "name": "Belarus",
+        "countryCode": "BY",
+        "capital": "Minsk",
+        "population": 9398861,
+        "area": 207600,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Belarusian",
+          "Russian"
+        ],
+        "currency": "Belarusian Ruble (BYN)",
+        "callingCode": "+375",
+        "flag": "🇧🇾",
+        "gdp": 68700000000,
+        "shortDescription": "A nation of vast forests, strong cultural traditions, and a complex history.",
+        "description": "The Republic of Belarus is a landlocked country known for its flat terrain, dense forests, and over 11,000 lakes. Its capital, Minsk, was almost entirely rebuilt after WWII in a grand Soviet architectural style. Belarusian culture is deeply rooted in folk traditions, including intricate textile arts, pottery, and the celebration of ancient pagan holidays like Kaliady. The country's economy is heavily industrialized, with a strong focus on machinery manufacturing and potash fertilizer production. The Belovezhskaya Pushcha National Park is a UNESCO World Heritage site, protecting Europe's last primeval forest."
+      },
+      {
+        "name": "Belgium",
+        "countryCode": "BE",
+        "capital": "Brussels",
+        "population": 11655930,
+        "area": 30528,
+        "subregion": "Western Europe",
+        "languages": [
+          "Dutch",
+          "French",
+          "German"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+32",
+        "flag": "🇧🇪",
+        "gdp": 599000000000,
+        "shortDescription": "The headquarters of the EU and NATO, famous for chocolate, beer, and medieval towns.",
+        "description": "The Kingdom of Belgium is a densely populated country at the crossroads of Western Europe. It is famously divided between the Dutch-speaking Flemish north (Flanders) and the French-speaking south (Wallonia), with Brussels as a bilingual capital region. As the de facto capital of the European Union, it hosts the EU Commission and NATO headquarters. Belgium is globally celebrated for its exquisite chocolates, over a thousand varieties of beer, and crispy fries. Its well-preserved medieval cities like Bruges and Ghent attract millions of visitors with their picturesque canals and architecture."
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "countryCode": "BA",
+        "capital": "Sarajevo",
+        "population": 3280815,
+        "area": 51209,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Bosnian",
+          "Croatian",
+          "Serbian"
+        ],
+        "currency": "Convertible Mark (BAM)",
+        "callingCode": "+387",
+        "flag": "🇧🇦",
+        "gdp": 24400000000,
+        "shortDescription": "A heart-shaped land of resilient spirit, stunning nature, and rich history.",
+        "description": "Bosnia and Herzegovina is a country of dramatic landscapes, characterized by deep gorges, lush forests, and towering mountains. Its capital, Sarajevo, is a historical melting pot where Eastern and Western cultures met, famously the site of the assassination that sparked WWI and the host of the 1984 Winter Olympics. The iconic Stari Most (Old Bridge) in Mostar, a UNESCO World Heritage site, symbolizes the country's recovery and resilience. The country is also known for its unique medieval stećci tombstones, coffee culture, and warm hospitality."
+      },
+      {
+        "name": "Bulgaria",
+        "countryCode": "BG",
+        "capital": "Sofia",
+        "population": 6714560,
+        "area": 110994,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Bulgarian"
+        ],
+        "currency": "Bulgarian Lev (BGN)",
+        "callingCode": "+359",
+        "flag": "🇧🇬",
+        "gdp": 10300000000,
+        "shortDescription": "A Balkan nation with ancient Thracian ruins, Black Sea beaches, and rose valleys.",
+        "description": "The Republic of Bulgaria is one of Europe's oldest countries, founded in 681 AD. It is famous for its vast valleys of roses, which produce much of the world's rose oil. The country boasts a diverse landscape ranging from the Black Sea coastline to mountainous interior and Thracian plains. Bulgaria is rich in archaeological treasures, including ancient Thracian tombs and medieval monasteries. Its unique traditional fire-dancing ritual (nestinarstvo) is recognized by UNESCO. Bulgarian culture is also known for its deep vocal traditions and hearty cuisine, including yogurt and banitsa."
+      },
+      {
+        "name": "Croatia",
+        "countryCode": "HR",
+        "capital": "Zagreb",
+        "population": 3848160,
+        "area": 56594,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Croatian"
+        ],
+        "currency": "Croatian Kuna (HRK)",
+        "callingCode": "+385",
+        "flag": "🇭🇷",
+        "gdp": 79000000000,
+        "shortDescription": "Mediterranean paradise known for its stunning Adriatic coast and ancient walled cities.",
+        "description": "The Republic of Croatia is renowned for its spectacular Adriatic coastline, dotted with over a thousand islands, and its beautifully preserved medieval port cities like Dubrovnik and Split. The country's interior features pristine national parks such as Plitvice Lakes, known for its cascading turquoise lakes and waterfalls. Croatia has a rich cultural history visible in its Roman ruins, Venetian architecture, and Austro-Hungarian influences. The country is also famous for its wine production, truffle hunting in the Istrian peninsula, and as the birthplace of the necktie (derived from the traditional cravat)."
+      },
+      {
+        "name": "Cyprus",
+        "countryCode": "CY",
+        "capital": "Nicosia",
+        "population": 1370754,
+        "area": 9251,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Greek",
+          "Turkish"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+357",
+        "flag": "🇨🇾",
+        "gdp": 32000000000,
+        "shortDescription": "Sun-drenched Mediterranean island with a divided capital and ancient Greek heritage.",
+        "description": "The Republic of Cyprus is an island nation in the eastern Mediterranean, geographically in Asia but culturally and politically European. It is the legendary birthplace of the Greek goddess Aphrodite. The island is known for its beautiful beaches, sunny climate, and Troodos Mountains. Nicosia remains the world's last divided capital, with a UN buffer zone separating the Greek Cypriot south from the Turkish Cypriot north. Cyprus has a rich history of successive civilizations, including Greek, Roman, Byzantine, and Ottoman, visible in its archaeological sites like the Tombs of the Kings and painted churches in the Troodos region."
+      },
+      {
+        "name": "Czech Republic",
+        "countryCode": "CZ",
+        "capital": "Prague",
+        "population": 10609240,
+        "area": 78871,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Czech"
+        ],
+        "currency": "Czech Koruna (CZK)",
+        "callingCode": "+420",
+        "flag": "🇨🇿",
+        "gdp": 330000000000,
+        "shortDescription": "The heart of Europe with a fairy-tale capital, stunning castles, and world-famous beer.",
+        "description": "The Czech Republic, located in the heart of Europe, is renowned for its romantic capital, Prague, which features breathtaking Gothic and Baroque architecture, including the iconic Charles Bridge and Prague Castle. The country has a deep historical connection to beer brewing, with Pilsner originating in the city of Plzeň and having the highest beer consumption per capita in the world. Beyond Prague, the country offers picturesque landscapes of rolling hills, and historical regions of Bohemia and Moravia. The Czech Republic is also known for its exquisite crystal glasswork, spa towns like Karlovy Vary, and love for hockey and football."
+      },
+      {
+        "name": "Denmark",
+        "countryCode": "DK",
+        "capital": "Copenhagen",
+        "population": 6002507,
+        "area": 42943,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Danish"
+        ],
+        "currency": "Danish Krone (DKK)",
+        "callingCode": "+45",
+        "flag": "🇩🇰",
+        "gdp": 420000000000,
+        "shortDescription": "Scandinavian kingdom known for its modern design, hygge lifestyle, and Viking history.",
+        "description": "The Kingdom of Denmark consists of the Jutland Peninsula and an archipelago of over 400 islands. It is celebrated for its high quality of life, progressive social policies, and the cultural concept of 'hygge' (coziness and comfortable conviviality). Denmark is a design powerhouse, home to brands like LEGO, Bang & Olufsen, and Arne Jacobsen's iconic Egg Chair. The country has a rich Viking heritage, visible at museums and historical sites. Its capital, Copenhagen, is known for its cycling culture, colorful Nyhavn harbor, and the Tivoli Gardens amusement park. Denmark also includes the autonomous territories of Greenland and the Faroe Islands."
+      },
+      {
+        "name": "Estonia",
+        "countryCode": "EE",
+        "capital": "Tallinn",
+        "population": 1344232,
+        "area": 45227,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Estonian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+372",
+        "flag": "🇪🇪",
+        "gdp": 44000000000,
+        "shortDescription": "A digital pioneer with a beautifully preserved medieval capital and vast forests.",
+        "description": "The Republic of Estonia is the most northern of the three Baltic states and a global leader in digital innovation, offering e-residency and conducting the world's first online national elections. Its capital, Tallinn, boasts one of Europe's best-preserved medieval Old Towns, a UNESCO World Heritage site. Estonia is covered by over 50% forests and has a unique cultural heritage with Finno-Ugric roots, expressed through traditions like the Song Festival. The country has more than 2,000 islands along its Baltic coastline and is known for its sauna culture. Despite its small size, Estonia has a vibrant startup ecosystem, earning it the nickname 'e-Stonia'."
+      },
+      {
+        "name": "Finland",
+        "countryCode": "FI",
+        "capital": "Helsinki",
+        "population": 5623329,
+        "area": 338145,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Finnish",
+          "Swedish"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+358",
+        "flag": "🇫🇮",
+        "gdp": 297000000000,
+        "shortDescription": "The 'Land of a Thousand Lakes' known for its innovation, saunas, and Arctic beauty.",
+        "description": "The Republic of Finland is a Nordic nation renowned for its vast, unspoiled natural landscapes, which include 188,000 lakes and extensive boreal forests. It consistently ranks as one of the world's happiest, most stable, and most innovative countries, being the birthplace of technology giant Nokia. Finnish culture is defined by 'sisu' (a concept of stoic determination), a deep love for saunas (of which there are over 3 million), and unique traditions like wife-carrying and mobile phone throwing championships. The country's Arctic Lapland region is the official home of Santa Claus and offers spectacular views of the Northern Lights."
+      },
+      {
+        "name": "France",
+        "countryCode": "FR",
+        "capital": "Paris",
+        "population": 66650804,
+        "area": 551695,
+        "subregion": "Western Europe",
+        "languages": [
+          "French"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+33",
+        "flag": "🇫🇷",
+        "gdp": 2930000000000,
+        "shortDescription": "A global center of art, fashion, gastronomy, and culture, with diverse landscapes from Alps to beaches.",
+        "description": "The French Republic is one of the world's oldest nations and a global cultural powerhouse. Its capital, Paris, is home to iconic landmarks like the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral. France is the world's most visited country, attracting tourists to its chic cities, sunny Mediterranean and Atlantic coasts, and world-renowned wine regions like Bordeaux and Champagne. French cuisine and fashion are immensely influential. The country is also a leader in aerospace, luxury goods, and nuclear energy, and it possesses a vast overseas territory, giving it the world's largest exclusive economic zone."
+      },
+      {
+        "name": "Germany",
+        "countryCode": "DE",
+        "capital": "Berlin",
+        "population": 84075075,
+        "area": 357022,
+        "subregion": "Western Europe",
+        "languages": [
+          "German"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+49",
+        "flag": "🇩🇪",
+        "gdp": 4460000000000,
+        "shortDescription": "Europe's largest economy, known for its engineering prowess, historic castles, and vibrant cultural festivals.",
+        "description": "The Federal Republic of Germany is the most populous nation in the European Union and an economic engine for the continent. It is celebrated for its high-quality engineering and manufacturing, particularly in the automotive industry (e.g., Mercedes-Benz, BMW, Volkswagen). Germany's history is profound and complex, from the Holy Roman Empire to the division and reunification of East and West Germany. Its landscape features the fairy-tale Black Forest, the Bavarian Alps, and the Rhine Valley dotted with castles. The country has a incredibly strong tradition of classical music (Bach, Beethoven), philosophy (Kant, Nietzsche), and hosts world-famous events like Oktoberfest and Christmas markets."
+      },
+      {
+        "name": "Greece",
+        "countryCode": "GR",
+        "capital": "Athens",
+        "population": 9938844,
+        "area": 131990,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Greek"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+30",
+        "flag": "🇬🇷",
+        "gdp": 222000000000,
+        "shortDescription": "The cradle of Western civilization, with countless ancient ruins and idyllic Aegean islands.",
+        "description": "The Hellenic Republic is universally recognized as the birthplace of democracy, Western philosophy, the Olympic Games, and major scientific and mathematical principles. Its landscape is a stunning mix of rugged mountains, thousands of islands scattered across the Aegean and Ionian Seas, and iconic ancient sites like the Acropolis in Athens and the Oracle of Delphi. Greek culture is a vibrant tapestry of passionate music, traditional dances like the syrtaki, and a healthy Mediterranean diet centered around olive oil, feta cheese, and fresh seafood. The country's sunny climate and crystal-clear waters make it a perennial top tourist destination."
+      },
+      {
+        "name": "Hungary",
+        "countryCode": "HU",
+        "capital": "Budapest",
+        "population": 9632287,
+        "area": 93030,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Hungarian"
+        ],
+        "currency": "Forint (HUF)",
+        "callingCode": "+36",
+        "flag": "🇭🇺",
+        "gdp": 204000000000,
+        "shortDescription": "A landlocked nation famous for its thermal baths, paprika-spiced cuisine, and grand capital on the Danube.",
+        "description": "Hungary is a country in Central Europe with a unique language and culture distinct from its Slavic, Germanic, and Romance neighbors. Its capital, Budapest, is known as the 'Queen of the Danube' for its stunning architecture, including the Parliament building and the Buda Castle, and its many natural thermal baths. Hungarian cuisine is famed for dishes like goulash, and its wine regions, particularly Tokaj, produce world-class wines. The country's history is marked by the Ottoman occupation, the Austro-Hungarian Empire, and the 1956 revolution. Lake Balaton, Central Europe's largest lake, is a popular holiday destination."
+      },
+      {
+        "name": "Iceland",
+        "countryCode": "IS",
+        "capital": "Reykjavik",
+        "population": 376248,
+        "area": 103000,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Icelandic"
+        ],
+        "currency": "Icelandic Króna (ISK)",
+        "callingCode": "+354",
+        "flag": "🇮🇸",
+        "gdp": 27700000000,
+        "shortDescription": "Land of fire and ice with volcanoes, geysers, and geothermal spas.",
+        "description": "Iceland is a Nordic island nation characterized by its dramatic volcanic landscape of geysers, hot springs, waterfalls, glaciers, and black sand beaches. It's one of the most geologically active places on Earth, sitting atop the Mid-Atlantic Ridge. The country is known for its commitment to renewable energy, with nearly all electricity produced from geothermal and hydroelectric sources. Icelandic culture preserves ancient Norse traditions, including a unique literary heritage with the medieval Sagas, and the language has changed little since Viking times. The capital, Reykjavik, is the world's northernmost capital city."
+      },
+      {
+        "name": "Ireland",
+        "countryCode": "IE",
+        "capital": "Dublin",
+        "population": 5037245,
+        "area": 70273,
+        "subregion": "Northern Europe",
+        "languages": [
+          "English",
+          "Irish"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+353",
+        "flag": "🇮🇪",
+        "gdp": 533000000000,
+        "shortDescription": "The Emerald Isle known for its lush landscapes, literary heritage, and vibrant pub culture.",
+        "description": "Ireland is an island nation famous for its rolling green hills, dramatic coastal cliffs, and historic castles. It has produced an extraordinary number of world-renowned writers, including James Joyce, W.B. Yeats, and Samuel Beckett. Irish culture is celebrated for its traditional music, dance (especially Riverdance), and the ubiquitous pub scene where storytelling and conversation thrive. The country has transformed into a modern technological hub, with many multinational corporations establishing European headquarters there. Despite modernization, Ireland maintains strong cultural traditions, including the Irish language (Gaeilge) and Gaelic sports like hurling and Gaelic football."
+      },
+      {
+        "name": "Italy",
+        "countryCode": "IT",
+        "capital": "Rome",
+        "population": 58850717,
+        "area": 301340,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Italian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+39",
+        "flag": "🇮🇹",
+        "gdp": 2110000000000,
+        "shortDescription": "World-renowned for its art, architecture, cuisine, and fashion, with more UNESCO sites than any other country.",
+        "description": "The Italian Republic boasts a cultural and historical legacy that has profoundly shaped Western civilization. It was the heart of the Roman Empire and the birthplace of the Renaissance, leaving behind an unparalleled collection of art, architecture, and archaeological treasures. From the canals of Venice and the ruins of Rome to the fashion capital of Milan and the volcanic landscapes of Sicily, Italy offers incredible diversity. Italian cuisine, with its regional variations of pasta, pizza, and wine, is beloved worldwide. The country is also known for its luxury sports cars, opera, and breathtaking landscapes ranging from the Alps to the Mediterranean coastline."
+      },
+      {
+        "name": "Kosovo",
+        "countryCode": "XK",
+        "capital": "Pristina",
+        "population": 1777557,
+        "area": 10887,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Albanian",
+          "Serbian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+383",
+        "flag": "🇽🇰",
+        "gdp": 9700000000,
+        "shortDescription": "Europe's youngest country, with a vibrant youth culture and complex history.",
+        "description": "The Republic of Kosovo declared its independence from Serbia in 2008, making it one of the world's newest countries. It has Europe's youngest population, with over half of its citizens under 25, contributing to a dynamic and energetic capital in Pristina. The country's history is complex, marked by the late 1990s conflict and subsequent international administration. Kosovo is home to several important Serbian Orthodox monasteries, including the Visoki Dečani, a UNESCO World Heritage site. Despite political challenges, it is developing its economy and is known for its hospitality, vibrant café culture, and stunning mountainous landscapes in the Accursed Mountains (Prokletije)."
+      },
+      {
+        "name": "Latvia",
+        "countryCode": "LV",
+        "capital": "Riga",
+        "population": 1832636,
+        "area": 64589,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Latvian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+371",
+        "flag": "🇱🇻",
+        "gdp": 42000000000,
+        "shortDescription": "A Baltic nation with vast forests, art nouveau architecture, and strong choral traditions.",
+        "description": "The Republic of Latvia is one of the three Baltic states, known for its extensive forests, which cover nearly half of the country, and its long Baltic Sea coastline with white sand beaches. Its capital, Riga, boasts one of Europe's finest collections of Art Nouveau architecture and a beautifully preserved medieval Old Town, a UNESCO World Heritage site. Latvian culture is deeply connected to nature and folklore, with ancient traditions celebrating the summer and winter solstices (Jāņi and Ziemassvētki). The country has a powerful choral singing tradition, with the Latvian Song and Dance Festival being a massive national event. Latvia is also a member of both the European Union and NATO."
+      },
+      {
+        "name": "Liechtenstein",
+        "countryCode": "LI",
+        "capital": "Vaduz",
+        "population": 39584,
+        "area": 160,
+        "subregion": "Western Europe",
+        "languages": [
+          "German"
+        ],
+        "currency": "Swiss Franc (CHF)",
+        "callingCode": "+423",
+        "flag": "🇱🇮",
+        "gdp": 6800000000,
+        "shortDescription": "Tiny alpine principality known for its financial services and stunning mountain scenery.",
+        "description": "The Principality of Liechtenstein is a doubly landlocked microstate between Switzerland and Austria, one of the smallest countries in the world. Despite its size, it boasts a highly developed economy based on financial services, manufacturing (especially precision instruments), and tourism. The country is ruled by a constitutional monarchy, with the Prince of Liechtenstein having significant political power. The capital, Vaduz, is dominated by Vaduz Castle, the royal residence. Liechtenstein offers excellent skiing in winter and hiking in summer through its Alpine landscapes. The country has no airport and is closely integrated with Switzerland, using the Swiss franc and relying on Swiss diplomacy."
+      },
+      {
+        "name": "Lithuania",
+        "countryCode": "LT",
+        "capital": "Vilnius",
+        "population": 2686249,
+        "area": 65300,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Lithuanian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+370",
+        "flag": "🇱🇹",
+        "gdp": 72000000000,
+        "shortDescription": "The geographical center of Europe with a rich history, amber coastline, and medieval architecture.",
+        "description": "The Republic of Lithuania is the southernmost of the three Baltic states and is notable for having been the last pagan country in Europe before adopting Christianity in the 14th century. Its capital, Vilnius, boasts one of the largest Baroque old towns in Eastern Europe, a UNESCO World Heritage site. Lithuania has a unique coastline along the Baltic Sea featuring the Curonian Spit, a spectacular sand dune peninsula also recognized by UNESCO. The country is famous for its basketball tradition, hillforts, and amber (often called 'Lithuanian gold') which washes up on its shores. Lithuania was the first Soviet republic to declare independence in 1990, leading to its restoration as a democratic state."
+      },
+      {
+        "name": "Luxembourg",
+        "countryCode": "LU",
+        "capital": "Luxembourg City",
+        "population": 660924,
+        "area": 2586,
+        "subregion": "Western Europe",
+        "languages": [
+          "Luxembourgish",
+          "French",
+          "German"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+352",
+        "flag": "🇱🇺",
+        "gdp": 89000000000,
+        "shortDescription": "A wealthy grand duchy and financial hub with fairytale castles and multicultural population.",
+        "description": "The Grand Duchy of Luxembourg is one of the world's smallest sovereign states but boasts the highest GDP per capita globally. It serves as a major European financial center and hosts several important EU institutions, including the European Court of Justice. The country is characterized by its dramatic contrasts: the modern banking district of Luxembourg City contrasts with the medieval old town perched on cliffs above deep gorges, earning it UNESCO World Heritage status. Luxembourg's multicultural population includes a large number of foreign residents and cross-border workers. The northern region features the Ardennes forest with numerous castles, while the wine region along the Moselle River produces excellent white wines."
+      },
+      {
+        "name": "Malta",
+        "countryCode": "MT",
+        "capital": "Valletta",
+        "population": 535065,
+        "area": 316,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Maltese",
+          "English"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+356",
+        "flag": "🇲🇹",
+        "gdp": 18000000000,
+        "shortDescription": "A sun-drenched archipelago with prehistoric temples, crystal-clear waters, and a strategic Mediterranean history.",
+        "description": "The Republic of Malta is a small archipelago in the central Mediterranean, strategically located between Europe and Africa. It boasts a remarkably dense concentration of historical sites, including megalithic temples that are among the oldest free-standing structures in the world, predating Stonehenge and the Egyptian pyramids. The capital, Valletta, is a UNESCO World Heritage site filled with Baroque architecture and fortifications from the era of the Knights of St. John. Malta's culture reflects various influences from Phoenician, Roman, Arab, Norman, British, and other rulers throughout its 7,000-year history. The country is popular for English language studies, film production (Game of Thrones), and diving in its clear blue waters."
+      },
+      {
+        "name": "Moldova",
+        "countryCode": "MD",
+        "capital": "Chișinău",
+        "population": 2597000,
+        "area": 33851,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Romanian"
+        ],
+        "currency": "Moldovan Leu (MDL)",
+        "callingCode": "+373",
+        "flag": "🇲🇩",
+        "gdp": 14000000000,
+        "shortDescription": "Landlocked country known for its vineyards and traditional rural culture.",
+        "description": "The Republic of Moldova is a landlocked country nestled between Romania and Ukraine, known for its extensive vineyards and wine production. The country's landscape consists mainly of rolling hills and fertile plains, with many traditional villages preserving ancient customs and crafts. Moldova has a complex political situation with the breakaway region of Transnistria along its eastern border. The capital, Chișinău, features Soviet-era architecture alongside modern developments. Moldovan culture reflects a blend of Romanian and Slavic influences, with strong traditions in folk music, dance, and embroidery."
+      },
+      {
+        "name": "Monaco",
+        "countryCode": "MC",
+        "capital": "Monaco",
+        "population": 39244,
+        "area": 2,
+        "subregion": "Western Europe",
+        "languages": [
+          "French"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+377",
+        "flag": "🇲🇨",
+        "gdp": 8700000000,
+        "shortDescription": "Tiny sovereign city-state on the French Riviera known for luxury and glamour.",
+        "description": "The Principality of Monaco is the world's second-smallest sovereign state, renowned for its luxury, glamour, and status as a tax haven. Perched on the French Riviera, it's famous for the Monte Carlo Casino, the Formula One Grand Prix that races through its streets, and its royal family, the Grimaldis. Despite its small size, Monaco features a dramatic landscape with steep streets, modern high-rises, and a picturesque old town centered around the Prince's Palace. The country has no income tax for residents and attracts wealthy individuals from around the world. It also boasts world-class museums, gardens, and the Oceanographic Museum founded by Jacques Cousteau."
+      },
+      {
+        "name": "Montenegro",
+        "countryCode": "ME",
+        "capital": "Podgorica",
+        "population": 626485,
+        "area": 13812,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Montenegrin"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+382",
+        "flag": "🇲🇪",
+        "gdp": 6200000000,
+        "shortDescription": "Adriatic gem with dramatic mountains, medieval villages, and a beautiful coastline.",
+        "description": "Montenegro, whose name means 'Black Mountain,' is characterized by its rugged mountains, medieval villages, and narrow beaches along its Adriatic coastline. The Bay of Kotor, a fjord-like inlet surrounded by mountains and dotted with historic fortified towns, is a UNESCO World Heritage site. The country gained independence from Serbia in 2006 and is now a candidate for European Union membership. Montenegro's economy is increasingly focused on tourism, attracting visitors to its Adriatic resorts, Durmitor National Park with its Tara River Canyon (the deepest in Europe), and ski resorts in the north. The country preserves many Orthodox monasteries and traditions."
+      },
+      {
+        "name": "Netherlands",
+        "countryCode": "NL",
+        "capital": "Amsterdam",
+        "population": 17729700,
+        "area": 41543,
+        "subregion": "Western Europe",
+        "languages": [
+          "Dutch"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+31",
+        "flag": "🇳🇱",
+        "gdp": 1000000000000,
+        "shortDescription": "Famous for its flat landscape, canals, tulip fields, windmills, and cycling culture.",
+        "description": "The Netherlands, often incorrectly referred to as Holland, is known for its flat landscape—about a quarter of the country lies below sea level, protected by an elaborate system of dikes and pumps. The country is famous for its cycling culture, with more bicycles than people, and its extensive network of canals, particularly in Amsterdam. The Netherlands was a 17th-century maritime power whose Golden Age produced master painters like Rembrandt and Vermeer. Today, it's a highly developed trading nation with the world's second-largest agricultural exports. Dutch culture is known for its liberalism, with progressive policies on drugs and same-sex marriage, and traditions like King's Day celebrations and cheese markets."
+      },
+      {
+        "name": "Norway",
+        "countryCode": "NO",
+        "capital": "Oslo",
+        "population": 5471553,
+        "area": 323802,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Norwegian"
+        ],
+        "currency": "Norwegian Krone (NOK)",
+        "callingCode": "+47",
+        "flag": "🇳🇴",
+        "gdp": 443000000000,
+        "shortDescription": "Land of fjords, northern lights, and Viking heritage with the world's largest sovereign wealth fund.",
+        "description": "The Kingdom of Norway is renowned for its dramatic natural beauty, featuring deep fjords carved by glaciers, majestic mountains, and countless islands along its rugged coastline. It's one of the best places in the world to witness the spectacular Northern Lights. Norway has built one of the world's most prosperous societies through prudent management of its oil and gas resources, creating the world's largest sovereign wealth fund. The country has a rich Viking heritage and maintains a constitutional monarchy. Norwegians embrace friluftsliv (open-air living), with outdoor activities like hiking, skiing, and fishing being central to their culture."
+      },
+      {
+        "name": "Poland",
+        "countryCode": "PL",
+        "capital": "Warsaw",
+        "population": 38382576,
+        "area": 312696,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Polish"
+        ],
+        "currency": "Złoty (PLN)",
+        "callingCode": "+48",
+        "flag": "🇵🇱",
+        "gdp": 716000000000,
+        "shortDescription": "Central European nation with resilient spirit, medieval architecture, and rich cultural traditions.",
+        "description": "The Republic of Poland is Central Europe's largest country, with a history marked by resilience through partitions, wars, and communist rule. Its cities showcase beautifully reconstructed historic centers, particularly in Warsaw (rebuilt after WWII) and Kraków (spared from destruction). Poland is the birthplace of Nicolaus Copernicus, Frédéric Chopin, and Marie Curie, and has produced Nobel laureates in literature and peace. The country is deeply Catholic, with Pope John Paul II being a national hero. Polish cuisine features pierogi (dumplings), kielbasa (sausage), and hearty soups. The Białowieża Forest, a UNESCO site, protects Europe's last primeval forest and is home to European bison."
+      },
+      {
+        "name": "Portugal",
+        "countryCode": "PT",
+        "capital": "Lisbon",
+        "population": 10276617,
+        "area": 92090,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+351",
+        "flag": "🇵🇹",
+        "gdp": 255000000000,
+        "shortDescription": "Historic maritime nation with golden beaches, port wine, and picturesque cities.",
+        "description": "The Portuguese Republic, on the Iberian Peninsula, was a 15th-16th century maritime powerhouse that established the first global empire. Its landscape ranges from the dramatic cliffs and beaches of the Algarve coast to the terraced vineyards of the Douro Valley, where port wine is produced. Portugal is known for its melancholic fado music, colorful azulejo tiles, and Manueline architecture celebrating the Age of Discoveries. Lisbon, the hilly capital, features historic trams and the iconic Belém Tower. Portugal is also a major producer of cork and has become a popular destination for digital nomads and retirees due to its climate, safety, and affordability."
+      },
+      {
+        "name": "Romania",
+        "countryCode": "RO",
+        "capital": "Bucharest",
+        "population": 19119880,
+        "area": 238397,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Romanian"
+        ],
+        "currency": "Romanian Leu (RON)",
+        "callingCode": "+40",
+        "flag": "🇷🇴",
+        "gdp": 301000000000,
+        "shortDescription": "Land of castles, forests, and the Carpathian Mountains with rich folk traditions.",
+        "description": "Romania is a country of dramatic contrasts, featuring the majestic Carpathian Mountains, medieval castles including the legendary Bran Castle associated with Dracula, and the vibrant capital of Bucharest known as 'Little Paris'. The country is home to the Danube Delta, Europe's largest wetland and biodiversity reserve, a UNESCO World Heritage site. Romanian culture preserves ancient folk traditions, including intricate wood carving, pottery, and colorful traditional costumes. The country is also known for its numerous Orthodox monasteries with exceptional exterior frescoes, particularly in the region of Bucovina."
+      },
+      {
+        "name": "San Marino",
+        "countryCode": "SM",
+        "capital": "San Marino",
+        "population": 33607,
+        "area": 61,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Italian"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+378",
+        "flag": "🇸🇲",
+        "gdp": 1700000000,
+        "shortDescription": "The world's oldest republic, perched atop Mount Titano with medieval charm.",
+        "description": "The Republic of San Marino is one of the world's smallest and oldest republics, founded in 301 AD. Completely surrounded by Italy, it perches dramatically on the slopes of Mount Titano, with its three distinctive fortress towers appearing on the national flag. Despite its tiny size, San Marino maintains its own distinct identity, currency (though it uses euros), and military forces. The country's medieval old town, with its narrow cobblestone streets and ancient walls, is a UNESCO World Heritage site. San Marino's economy relies on tourism, banking, and the sale of collectible stamps and coins."
+      },
+      {
+        "name": "Serbia",
+        "countryCode": "RS",
+        "capital": "Belgrade",
+        "population": 8658165,
+        "area": 88361,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Serbian"
+        ],
+        "currency": "Serbian Dinar (RSD)",
+        "callingCode": "+381",
+        "flag": "🇷🇸",
+        "gdp": 63000000000,
+        "shortDescription": "A crossroads of cultures with fortress cities, Orthodox monasteries, and vibrant nightlife.",
+        "description": "The Republic of Serbia sits at the crossroads of Central and Southeast Europe, with a history shaped by Roman, Ottoman, and Austro-Hungarian influences. Its capital, Belgrade ('White City'), is one of Europe's oldest continuously inhabited cities, known for its imposing Kalemegdan Fortress at the confluence of the Danube and Sava rivers, and its legendary nightlife. Serbia is home to several medieval Orthodox monasteries with exquisite frescoes, recognized as UNESCO World Heritage sites. The country's culture is known for its slava (family patron saint celebration), traditional folk music with brass bands, and hearty cuisine featuring ćevapi (grilled meat) and rakija (fruit brandy)."
+      },
+      {
+        "name": "Slovakia",
+        "countryCode": "SK",
+        "capital": "Bratislava",
+        "population": 5457874,
+        "area": 49037,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Slovak"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+421",
+        "flag": "🇸🇰",
+        "gdp": 127000000000,
+        "shortDescription": "Heart of Europe with dramatic castles, mountain landscapes, and folk traditions.",
+        "description": "The Slovak Republic is a landlocked country in Central Europe characterized by its dramatic natural beauty, including the High Tatras mountains (part of the Carpathian range) offering excellent skiing and hiking, numerous mineral springs, and hundreds of caves and castles. The capital, Bratislava, sits uniquely on the borders of both Austria and Hungary, with a charming old town beneath its hilltop castle. Slovakia has a rich folk tradition expressed through music, dance, and colorful handmade crafts. The country has transformed from a centrally planned to a market economy since the peaceful dissolution of Czechoslovakia in 1993 (the Velvet Divorce), developing a strong automotive industry."
+      },
+      {
+        "name": "Slovenia",
+        "countryCode": "SI",
+        "capital": "Ljubljana",
+        "population": 2119845,
+        "area": 20273,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Slovene"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+386",
+        "flag": "🇸🇮",
+        "gdp": 62000000000,
+        "shortDescription": "Green jewel of Europe with alpine lakes, caves, and sustainable tourism.",
+        "description": "The Republic of Slovenia is a green paradise where the Alps meet the Mediterranean and the Karst landscape creates spectacular caves. The country is known for its stunning Lake Bled with its island church and cliff-top castle, and the capital Ljubljana, a vibrant, pedestrian-friendly city designed by architect Jože Plečnik. Slovenia was the first country to be declared a green destination of the world and is committed to sustainable tourism. It has diverse ecosystems within a small area, from Alpine mountains to the short Adriatic coastline. Slovenian culture blends Central European and Mediterranean influences, with traditions like beekeeping and lace-making, and cuisine that includes potica (nut roll) and quality wines."
+      },
+      {
+        "name": "Spain",
+        "countryCode": "ES",
+        "capital": "Madrid",
+        "population": 47519628,
+        "area": 505990,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Spanish",
+          "Catalan",
+          "Galician",
+          "Basque"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+34",
+        "flag": "🇪🇸",
+        "gdp": 1400000000000,
+        "shortDescription": "Vibrant Mediterranean nation known for diverse cultures, flamenco, and architectural wonders.",
+        "description": "The Kingdom of Spain occupies most of the Iberian Peninsula and is characterized by remarkable regional diversity in culture, language, and traditions. From the Moorish architecture of Andalusia to the modernist works of Gaudí in Barcelona, Spain boasts an incredible architectural heritage. The country is famous for its passionate flamenco music and dance, vibrant festivals like La Tomatina and Running of the Bulls, and a culinary tradition that includes tapas, paella, and world-renowned jamón ibérico. Spain's landscape ranges from sunny Mediterranean beaches to the snow-capped Pyrenees mountains, with the Canary and Balearic Islands adding to its geographic diversity."
+      },
+      {
+        "name": "Sweden",
+        "countryCode": "SE",
+        "capital": "Stockholm",
+        "population": 10540886,
+        "area": 450295,
+        "subregion": "Northern Europe",
+        "languages": [
+          "Swedish"
+        ],
+        "currency": "Swedish Krona (SEK)",
+        "callingCode": "+46",
+        "flag": "🇸🇪",
+        "gdp": 591000000000,
+        "shortDescription": "Scandinavian nation known for innovation, social welfare, and stunning natural landscapes.",
+        "description": "The Kingdom of Sweden is the largest Nordic country, renowned for its high standard of living, progressive social policies, and commitment to environmental sustainability. The country has produced globally recognized brands like IKEA, Volvo, and Spotify, reflecting its culture of innovation and design. Sweden's landscape is dominated by forests, thousands of coastal islands, and numerous lakes, with the northern region lying within the Arctic Circle where the midnight sun and northern lights can be observed. Swedish culture embraces lagom (moderation), fika (coffee break tradition), and allemansrätten (the right of public access to nature). The country maintains a constitutional monarchy with a rich Viking heritage."
+      },
+      {
+        "name": "Switzerland",
+        "countryCode": "CH",
+        "capital": "Bern",
+        "population": 8703000,
+        "area": 41284,
+        "subregion": "Western Europe",
+        "languages": [
+          "German",
+          "French",
+          "Italian",
+          "Romansh"
+        ],
+        "currency": "Swiss Franc (CHF)",
+        "callingCode": "+41",
+        "flag": "🇨🇭",
+        "gdp": 824000000000,
+        "shortDescription": "Alpine nation famous for precision, neutrality, and breathtaking mountain scenery.",
+        "description": "The Swiss Confederation is a landlocked country known for its political neutrality, direct democracy, and exceptional quality of life. The Swiss Alps cover about 60% of the country, offering world-class skiing, hiking, and mountaineering opportunities. Switzerland is globally recognized for its precision industries including watchmaking (Rolex, Swatch) and pharmaceuticals (Novartis, Roche), as well as its banking sector. The country's unique political system gives considerable power to its cantons (states) and frequently uses referendums for decision-making. Swiss culture reflects its multilingual composition, with distinct German, French, and Italian influences evident in its cuisine, which includes fondue, chocolate, and rösti."
+      },
+      {
+        "name": "Ukraine",
+        "countryCode": "UA",
+        "capital": "Kyiv",
+        "population": 36744634,
+        "area": 603500,
+        "subregion": "Eastern Europe",
+        "languages": [
+          "Ukrainian"
+        ],
+        "currency": "Hryvnia (UAH)",
+        "callingCode": "+380",
+        "flag": "🇺🇦",
+        "gdp": 160000000000,
+        "shortDescription": "Largest country entirely in Europe, with rich cultural heritage and agricultural lands.",
+        "description": "Ukraine is the largest country entirely within Europe, known for its Orthodox churches, Black Sea coastline, and vast fertile plains that have earned it the nickname 'breadbasket of Europe.' The country has a rich cultural heritage including traditional Easter egg painting (pysanky), Cossack traditions, and a literary tradition exemplified by Taras Shevchenko. Ukraine's capital, Kyiv, features golden-domed churches like Saint Sophia's Cathedral and Kyiv Pechersk Lavra, both UNESCO World Heritage sites. The Carpathian Mountains in the west offer skiing and hiking, while the southern region borders the Black Sea. Ukrainian cuisine is known for borscht (beet soup), varenyky (dumplings), and salo (cured pork fat)."
+      },
+      {
+        "name": "United Kingdom",
+        "countryCode": "GB",
+        "capital": "London",
+        "population": 67215293,
+        "area": 242495,
+        "subregion": "Northern Europe",
+        "languages": [
+          "English"
+        ],
+        "currency": "Pound Sterling (GBP)",
+        "callingCode": "+44",
+        "flag": "🇬🇧",
+        "gdp": 3130000000000,
+        "shortDescription": "Historic island nation with global cultural influence and diverse constituent countries.",
+        "description": "The United Kingdom of Great Britain and Northern Ireland comprises four constituent countries: England, Scotland, Wales, and Northern Ireland. The UK has had a profound global impact through the British Empire, the English language, and the parliamentary system. London serves as a global financial center and cultural capital, home to institutions like the British Museum, West End theatres, and the Royal Family. The UK's landscape ranges from Scottish Highlands and lochs to rolling English countryside and dramatic coastal cliffs. British contributions to literature (Shakespeare, Dickens), music (The Beatles), and science (Newton, Darwin) are world-renowned. The country continues to navigate its post-Brexit relationship with Europe while maintaining its distinct cultural identity."
+      },
+      {
+        "name": "Vatican City",
+        "countryCode": "VA",
+        "capital": "Vatican City",
+        "population": 825,
+        "area": 0.49,
+        "subregion": "Southern Europe",
+        "languages": [
+          "Italian",
+          "Latin"
+        ],
+        "currency": "Euro (EUR)",
+        "callingCode": "+379",
+        "flag": "🇻🇦",
+        "gdp": 0,
+        "shortDescription": "World's smallest independent state and spiritual center of the Catholic Church.",
+        "description": "Vatican City is the world's smallest fully independent nation-state, both by area and population, serving as the spiritual and administrative center of the Roman Catholic Church. The Pope resides here as both the religious leader of Catholics worldwide and the head of state of Vatican City. The territory contains priceless cultural and artistic treasures including St. Peter's Basilica, the Sistine Chapel with Michelangelo's famous ceiling, and the Vatican Museums housing one of the world's greatest art collections. The Swiss Guard, dressed in distinctive Renaissance uniforms, provides security for the Pope. Vatican City is surrounded by Rome, Italy, and its economy is supported by museum admissions, postage stamps, and worldwide donations from Catholics."
+      }
+    ]
+  },
+  {
+    "name": "North America",
+    "population": 608000000,
+    "area": 24709000,
+    "numberOfCountries": 23,
+    "countries": [
+      {
+        "name": "Costa Rica",
+        "countryCode": "CR",
+        "capital": "San José",
+        "population": 5212175,
+        "area": 51100,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Costa Rican Colón (CRC)",
+        "callingCode": "+506",
+        "flag": "🇨🇷",
+        "gdp": 69200000000,
+        "shortDescription": "A peaceful eco-paradise known for its biodiversity, volcanoes, and pura-vida lifestyle.",
+        "description": "The Republic of Costa Rica is a global leader in conservation and environmentalism, having dissolved its military in 1949 to redirect funds to education and healthcare. Over 25% of its land is protected in national parks and reserves, encompassing a stunning variety of ecosystems from cloud forests and active volcanoes to Pacific and Caribbean beaches. This makes it a premier ecotourism destination for wildlife watching (sloths, monkeys, quetzal birds) and adventure activities. Costa Ricans (Ticos) enjoy a high standard of living and famously embrace the 'pura vida' (pure life) philosophy, emphasizing happiness and well-being. The country runs on nearly 100% renewable energy."
+      },
+      {
+        "name": "Cuba",
+        "countryCode": "CU",
+        "capital": "Havana",
+        "population": 11194449,
+        "area": 109884,
+        "subregion": "Caribbean",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Cuban Peso (CUP)",
+        "callingCode": "+53",
+        "flag": "🇨🇺",
+        "gdp": 107000000000,
+        "shortDescription": "Largest Caribbean island known for its revolutionary history, classic cars, and vibrant culture.",
+        "description": "The Republic of Cuba is the largest island in the Caribbean, renowned for its influential communist revolution led by Fidel Castro in 1959 and its subsequent decades-long standoff with the United States. The capital, Havana, fascinates visitors with its colorful, decaying colonial architecture and thousands of pre-1960 American classic cars still in daily use. Cuban culture has made extraordinary global contributions, particularly in music (son, mambo, salsa) and dance. Despite economic challenges from the U.S. embargo, Cuba maintains high literacy rates and a robust healthcare system. The island features beautiful white-sand beaches, tobacco fields producing world-famous cigars, and a rich Afro-Caribbean cultural heritage."
+      },
+      {
+        "name": "Dominica",
+        "countryCode": "DM",
+        "capital": "Roseau",
+        "population": 73286,
+        "area": 751,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-767",
+        "flag": "🇩🇲",
+        "gdp": 610000000,
+        "shortDescription": "The 'Nature Island' of the Caribbean with lush rainforests and volcanic features.",
+        "description": "The Commonwealth of Dominica (not to be confused with the Dominican Republic) is known as the 'Nature Island' for its pristine natural beauty. Unlike many Caribbean islands, Dominica is characterized by steep mountainous terrain covered in lush rainforest, with numerous rivers, waterfalls, and the world's second-largest boiling lake in Morne Trois Pitons National Park, a UNESCO World Heritage site. The island has significant geothermal activity and is home to the last surviving population of Kalinago (Carib) people in the Caribbean. Dominica's economy is based on agriculture (particularly bananas), ecotourism, and its citizenship by investment program. The island is working to become the world's first climate-resilient nation."
+      },
+      {
+        "name": "Dominican Republic",
+        "countryCode": "DO",
+        "capital": "Santo Domingo",
+        "population": 11332973,
+        "area": 48671,
+        "subregion": "Caribbean",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Dominican Peso (DOP)",
+        "callingCode": "+1-809, +1-829, +1-849",
+        "flag": "🇩🇴",
+        "gdp": 113000000000,
+        "shortDescription": "Popular Caribbean destination with resort beaches, colonial history, and merengue music.",
+        "description": "The Dominican Republic shares the island of Hispaniola with Haiti and is the most visited destination in the Caribbean. The country offers diverse attractions from the all-inclusive resorts of Punta Cana to the colonial architecture of Santo Domingo's Zona Colonial, the first European settlement in the Americas and a UNESCO World Heritage site. The Dominican landscape ranges from the Caribbean's highest peak (Pico Duarte) to desert regions and pristine beaches. The country is the birthplace of merengue and bachata music and has produced many world-class baseball players. While tourism is the main industry, the country also has significant mining and agricultural sectors."
+      },
+      {
+        "name": "El Salvador",
+        "countryCode": "SV",
+        "capital": "San Salvador",
+        "population": 6364941,
+        "area": 21041,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+503",
+        "flag": "🇸🇻",
+        "gdp": 32500000000,
+        "shortDescription": "Smallest Central American country known for surfing spots and volcanic landscapes.",
+        "description": "The Republic of El Salvador is the smallest and most densely populated country in Central America. Despite past civil conflict and ongoing challenges with gang violence, the country has stunning natural beauty including over 20 volcanoes, such as the iconic Volcán de Santa Ana. El Salvador's Pacific coast offers some of the best surfing in the world, particularly at spots like La Libertad and El Tunco. The country adopted the U.S. dollar as its official currency in 2001. Salvadoran culture is known for its pupusas (stuffed corn tortillas), vibrant festivals, and indigenous traditions, though the majority of the population is mestizo. Recent government policies have significantly reduced crime rates."
+      },
+      {
+        "name": "Grenada",
+        "countryCode": "GD",
+        "capital": "St. George's",
+        "population": 126183,
+        "area": 344,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-473",
+        "flag": "🇬🇩",
+        "gdp": 1200000000,
+        "shortDescription": "The 'Spice Isle' known for nutmeg production and beautiful harbor capital.",
+        "description": "Grenada is a Caribbean nation comprising the main island of Grenada and smaller islands including Carriacou and Petite Martinique. Known as the 'Spice Isle,' it is one of the world's largest producers of nutmeg and mace, and the scent of spices fills the air across the island. The capital, St. George's, is considered one of the most beautiful harbor towns in the Caribbean with its colorful buildings and historic Fort George. Grenada's landscape features lush rainforests, waterfalls, and white-sand beaches. The country gained international attention in 1983 with the U.S.-led invasion following a Marxist coup. Today, its economy relies on tourism, spice production, and higher education through its medical schools."
+      },
+      {
+        "name": "Guatemala",
+        "countryCode": "GT",
+        "capital": "Guatemala City",
+        "population": 17679735,
+        "area": 108889,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Guatemalan Quetzal (GTQ)",
+        "callingCode": "+502",
+        "flag": "🇬🇹",
+        "gdp": 86000000000,
+        "shortDescription": "Heart of Mayan civilization with rich indigenous culture and volcanic landscapes.",
+        "description": "The Republic of Guatemala is the most populous country in Central America and the cultural heart of the ancient Maya civilization, home to spectacular ruins like Tikal. The country features dramatic landscapes dominated by volcanic mountains, lush rainforests, and beautiful Lake Atitlán surrounded by volcanoes. Guatemalan culture reflects a strong indigenous Mayan heritage, with many people wearing traditional textiles and speaking Mayan languages alongside Spanish. The country produces some of the world's finest coffee and is known for its colorful festivals, particularly Holy Week celebrations. Despite natural beauty and cultural richness, Guatemala faces challenges with poverty and inequality."
+      },
+      {
+        "name": "Haiti",
+        "countryCode": "HT",
+        "capital": "Port-au-Prince",
+        "population": 11577779,
+        "area": 27750,
+        "subregion": "Caribbean",
+        "languages": [
+          "French",
+          "Haitian Creole"
+        ],
+        "currency": "Haitian Gourde (HTG)",
+        "callingCode": "+509",
+        "flag": "🇭🇹",
+        "gdp": 21000000000,
+        "shortDescription": "First independent black republic with rich culture but significant challenges.",
+        "description": "The Republic of Haiti shares the island of Hispaniola with the Dominican Republic and made history as the world's first black-led republic and the first independent Caribbean state after a successful slave rebellion. Haitian culture is a unique blend of African, French, and Caribbean influences, particularly evident in its vibrant art, Vodou religion, and Creole language. The country has faced immense challenges including political instability, poverty, and natural disasters, most notably the devastating 2010 earthquake. Despite these hardships, Haiti possesses beautiful beaches, mountainous landscapes, and historic sites like the Citadelle Laferrière, a mountaintop fortress and UNESCO World Heritage site."
+      },
+      {
+        "name": "Honduras",
+        "countryCode": "HN",
+        "capital": "Tegucigalpa",
+        "population": 10432860,
+        "area": 112492,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Honduran Lempira (HNL)",
+        "callingCode": "+504",
+        "flag": "🇭🇳",
+        "gdp": 31000000000,
+        "shortDescription": "Central American nation with Caribbean beaches and ancient Maya ruins.",
+        "description": "The Republic of Honduras is known for its Caribbean coastline, which includes the Bay Islands, a popular destination for diving and snorkeling on the Mesoamerican Barrier Reef. The country contains important Maya archaeological sites, most notably Copán with its intricate stone sculptures and hieroglyphics. Honduras has significant natural resources including minerals, coffee, and tropical fruits, but faces challenges with poverty and crime. The Mosquito Coast along the northeastern Caribbean contains the largest wilderness area in Central America. Honduran culture features a blend of indigenous Lenca and Miskito traditions with Spanish influences, expressed through music, dance, and colorful festivals."
+      },
+      {
+        "name": "Jamaica",
+        "countryCode": "JM",
+        "capital": "Kingston",
+        "population": 2827377,
+        "area": 10991,
+        "subregion": "Caribbean",
+        "languages": [
+          "English",
+          "Jamaican Patois"
+        ],
+        "currency": "Jamaican Dollar (JMD)",
+        "callingCode": "+1-876",
+        "flag": "🇯🇲",
+        "gdp": 17000000000,
+        "shortDescription": "Caribbean island famous for reggae music, sprinters, and vibrant culture.",
+        "description": "Jamaica is the third-largest island in the Caribbean and has had an outsized cultural influence globally through its music, particularly reggae pioneered by Bob Marley, and its athletic excellence in track and field. The island features diverse landscapes including the Blue Mountains, home to famous coffee plantations, and beautiful beaches in destinations like Montego Bay and Negril. Jamaican culture is a vibrant mix of African, British, and indigenous influences, expressed through its distinctive patois language, cuisine featuring jerk seasoning, and spiritual traditions like Rastafarianism. Despite its small size, Jamaica has produced numerous world-class athletes, musicians, and writers, contributing significantly to global culture."
+      },
+      {
+        "name": "Mexico",
+        "countryCode": "MX",
+        "capital": "Mexico City",
+        "population": 128455567,
+        "area": 1964375,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Mexican Peso (MXN)",
+        "callingCode": "+52",
+        "flag": "🇲🇽",
+        "gdp": 1400000000000,
+        "shortDescription": "Vibrant nation with ancient civilizations, diverse landscapes, and rich cultural heritage.",
+        "description": "The United Mexican States is a vast and diverse country bridging North and Central America, with a rich history spanning ancient civilizations like the Maya and Aztec, Spanish colonial rule, and modern independence. Mexico features incredibly diverse landscapes from deserts in the north to tropical rainforests in the south, with beautiful Caribbean and Pacific coastlines. The country is renowned for its vibrant culture including mariachi music, Day of the Dead celebrations, and world-famous cuisine recognized by UNESCO. Mexico is a major economic power in Latin America with significant oil reserves, manufacturing industries, and tourism. Despite challenges with inequality and crime, it remains a popular destination for its archaeological sites, colonial cities, and natural beauty."
+      },
+      {
+        "name": "Nicaragua",
+        "countryCode": "NI",
+        "capital": "Managua",
+        "population": 7046315,
+        "area": 130375,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Nicaraguan Córdoba (NIO)",
+        "callingCode": "+505",
+        "flag": "🇳🇮",
+        "gdp": 15000000000,
+        "shortDescription": "Largest Central American country with lakes, volcanoes, and colonial cities.",
+        "description": "The Republic of Nicaragua is the largest country in Central America by area, known for its dramatic geography including Lake Nicaragua (the largest lake in Central America), numerous volcanoes, and two coastlines along the Caribbean and Pacific. The country features beautiful colonial architecture in cities like Granada and León, and the Corn Islands in the Caribbean offer pristine beaches and diving opportunities. Nicaragua has faced political instability and natural disasters but maintains a growing tourism industry focused on surfing, eco-tourism, and volcano boarding. The country's economy is based on agriculture, textiles, and remittances from Nicaraguans living abroad."
+      },
+      {
+        "name": "Panama",
+        "countryCode": "PA",
+        "capital": "Panama City",
+        "population": 4468087,
+        "area": 75417,
+        "subregion": "Central America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Panamanian Balboa (PAB), US Dollar (USD)",
+        "callingCode": "+507",
+        "flag": "🇵🇦",
+        "gdp": 76000000000,
+        "shortDescription": "Strategic isthmus nation home to the famous Panama Canal.",
+        "description": "The Republic of Panama is best known for the Panama Canal, one of the most important engineering marvels and commercial waterways in the world, connecting the Atlantic and Pacific Oceans. Panama City features a striking modern skyline contrasting with the historic Casco Viejo district, a UNESCO World Heritage site. The country has a service-based economy focused on banking, commerce, and tourism, and uses the US dollar as legal tender. Panama offers diverse ecosystems from tropical rainforests to beautiful islands, and is home to several indigenous communities including the Guna people of the San Blas Islands. The country's geostrategic location has made it a crossroads of cultures and commerce for centuries."
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "countryCode": "KN",
+        "capital": "Basseterre",
+        "population": 47606,
+        "area": 261,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-869",
+        "flag": "🇰🇳",
+        "gdp": 1100000000,
+        "shortDescription": "Two-island nation known for green volcanoes and citizenship program.",
+        "description": "The Federation of Saint Kitts and Nevis is the smallest sovereign state in the Americas by both area and population. These two islands in the Lesser Antilles are of volcanic origin with lush central mountains surrounded by beautiful beaches. The islands have a rich colonial history as some of the first Caribbean islands settled by Europeans. Brimstone Hill Fortress National Park, a UNESCO World Heritage site on Saint Kitts, is one of the best-preserved historical fortifications in the Americas. The country's economy has transitioned from sugar production to tourism and one of the world's longest-running citizenship-by-investment programs. Nevis, the smaller island, is known as the birthplace of Alexander Hamilton."
+      },
+      {
+        "name": "Saint Lucia",
+        "countryCode": "LC",
+        "capital": "Castries",
+        "population": 180251,
+        "area": 616,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-758",
+        "flag": "🇱🇨",
+        "gdp": 2200000000,
+        "shortDescription": "Volcanic island known for the Pitons mountains and luxury resorts.",
+        "description": "Saint Lucia is a volcanic island nation in the eastern Caribbean known for its dramatic twin peaks, the Pitons, which rise sheer from the sea and are a UNESCO World Heritage site. The island offers a blend of beautiful beaches, lush rainforests, and sulfur springs from its volcanic activity. Saint Lucia has a rich cultural heritage with influences from African, French, and British traditions, reflected in its Creole language (Kwéyòl), music, and annual Jazz Festival. The economy is primarily based on tourism, particularly luxury resorts and honeymoon destinations, along with banana production. The island changed hands between French and British rule 14 times before finally becoming a British colony, then gaining independence in 1979."
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "countryCode": "VC",
+        "capital": "Kingstown",
+        "population": 103683,
+        "area": 389,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-784",
+        "flag": "🇻🇨",
+        "gdp": 900000000,
+        "shortDescription": "Main island with chain of smaller islands known for sailing and natural beauty.",
+        "description": "Saint Vincent and the Grenadines is a multi-island nation consisting of the main island of Saint Vincent and a chain of 32 smaller islands and cays (the Grenadines) stretching south toward Grenada. The country is renowned for its excellent sailing conditions, beautiful white-sand beaches, and crystal-clear waters, particularly around islands like Mustique, Bequia, and Canouan. Saint Vincent is dominated by La Soufrière, an active volcano that most recently erupted in 2021. The economy relies on tourism, agriculture (particularly bananas and arrowroot), and an emerging offshore financial sector. The islands were famously used as filming locations for the Pirates of the Caribbean movies, showcasing their pristine natural beauty."
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "countryCode": "TT",
+        "capital": "Port of Spain",
+        "population": 1534937,
+        "area": 5130,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "Trinidad and Tobago Dollar (TTD)",
+        "callingCode": "+1-868",
+        "flag": "🇹🇹",
+        "gdp": 24000000000,
+        "shortDescription": "Twin-island nation known for Carnival, steelpan music, and energy industry.",
+        "description": "The Republic of Trinidad and Tobago consists of two main islands with distinct characters: Trinidad is the larger, more industrialized island with oil and gas resources, while Tobago is known for its relaxed atmosphere and beautiful beaches. The country is the birthplace of steelpan (the only acoustic instrument invented in the 20th century), calypso music, and the spectacular Carnival celebration, which draws visitors from around the world. Trinidad and Tobago has a diverse multicultural society with African, Indian, European, Chinese, and Middle Eastern influences, reflected in its vibrant cuisine and festivals. The country has the highest GDP per capita in the Caribbean due to its energy sector but is working to diversify its economy through tourism and creative industries."
+      },
+      {
+        "name": "United States",
+        "countryCode": "US",
+        "capital": "Washington, D.C.",
+        "population": 341814420,
+        "area": 9833517,
+        "subregion": "Northern America",
+        "languages": [
+          "English"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+1",
+        "flag": "🇺🇸",
+        "gdp": 26800000000000,
+        "shortDescription": "World's largest economy with diverse landscapes, cultural influence, and technological innovation.",
+        "description": "The United States of America is a vast federal republic consisting of 50 states, a federal district, and several territories. It features incredibly diverse geography ranging from Arctic tundra in Alaska to tropical beaches in Hawaii and Florida, with majestic mountain ranges, great plains, and dramatic deserts in between. As the world's largest economy, the U.S. is a global leader in technology, entertainment, higher education, and innovation. American culture has had enormous worldwide influence through Hollywood films, music, fast food, and technological products. The country is known for its cultural diversity as a nation of immigrants, though it continues to grapple with issues of inequality and political polarization. The U.S. plays a significant role in global affairs through its military, diplomatic, and economic influence."
+      }
+    ]
+  },
+  {
+    "name": "South America",
+    "population": 439040000,
+    "area": 17840000,
+    "numberOfCountries": 12,
+    "countries": [
+      {
+        "name": "Argentina",
+        "countryCode": "AR",
+        "capital": "Buenos Aires",
+        "population": 46234830,
+        "area": 2780400,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Argentine Peso (ARS)",
+        "callingCode": "+54",
+        "flag": "🇦🇷",
+        "gdp": 491000000000,
+        "shortDescription": "Land of tango, steak, and dramatic landscapes from Patagonia to Iguazu Falls.",
+        "description": "Argentina is the second-largest country in South America, known for its passionate tango dance, world-renowned beef, and vibrant European-influenced cities like Buenos Aires. The country boasts incredibly diverse landscapes including the Andes mountains, glacial Patagonia region, and the spectacular Iguazu Falls. Argentina is a major wine producer and has produced famous figures like Che Guevara, Pope Francis, and Lionel Messi."
+      },
+      {
+        "name": "Bolivia",
+        "countryCode": "BO",
+        "capital": "Sucre",
+        "population": 12224110,
+        "area": 1098581,
+        "subregion": "South America",
+        "languages": [
+          "Spanish",
+          "Quechua",
+          "Aymara"
+        ],
+        "currency": "Bolivian Boliviano (BOB)",
+        "callingCode": "+591",
+        "flag": "🇧🇴",
+        "gdp": 41000000000,
+        "shortDescription": "High-altitude nation with indigenous culture and salt flats.",
+        "description": "Bolivia is one of South America's most indigenous countries, with a majority population maintaining traditional customs and languages. It features the world's largest salt flat (Salar de Uyuni), Lake Titicaca (highest navigable lake), and the constitutional capital Sucre. Bolivia's diverse landscape ranges from Amazon rainforest to Andean peaks."
+      },
+      {
+        "name": "Brazil",
+        "countryCode": "BR",
+        "capital": "Brasília",
+        "population": 216422446,
+        "area": 8515770,
+        "subregion": "South America",
+        "languages": [
+          "Portuguese"
+        ],
+        "currency": "Brazilian Real (BRL)",
+        "callingCode": "+55",
+        "flag": "🇧🇷",
+        "gdp": 1920000000000,
+        "shortDescription": "Largest South American country known for Amazon rainforest and Carnival.",
+        "description": "Brazil is the fifth-largest country in the world, home to the vast Amazon rainforest and incredible biodiversity. Known for its vibrant Carnival celebrations, samba music, and football passion, Brazil has a diverse culture blending indigenous, African, and European influences. Its economy is the largest in Latin America."
+      },
+      {
+        "name": "Chile",
+        "countryCode": "CL",
+        "capital": "Santiago",
+        "population": 19603733,
+        "area": 756102,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Chilean Peso (CLP)",
+        "callingCode": "+56",
+        "flag": "🇨🇱",
+        "gdp": 317000000000,
+        "shortDescription": "Long, narrow country with deserts, mountains, and coastline.",
+        "description": "Chile stretches along South America's western edge with the Andes mountains to the east and Pacific Ocean to the west. It features the Atacama Desert (driest place on Earth), fertile wine valleys, and Patagonian glaciers. Chile has one of South America's most stable economies, known for copper mining and wine production."
+      },
+      {
+        "name": "Colombia",
+        "countryCode": "CO",
+        "capital": "Bogotá",
+        "population": 52085168,
+        "area": 1141748,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Colombian Peso (COP)",
+        "callingCode": "+57",
+        "flag": "🇨🇴",
+        "gdp": 314000000000,
+        "shortDescription": "Diverse nation with coffee, emeralds, and Caribbean and Pacific coasts.",
+        "description": "Colombia features Andean mountains, Amazon rainforest, and coastlines on both the Caribbean and Pacific. Known for coffee, emeralds, and vibrant music like cumbia and vallenato. Has transformed from drug violence to a popular tourist destination with colorful colonial towns."
+      },
+      {
+        "name": "Ecuador",
+        "countryCode": "EC",
+        "capital": "Quito",
+        "population": 18190484,
+        "area": 283561,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "United States Dollar (USD)",
+        "callingCode": "+593",
+        "flag": "🇪🇨",
+        "gdp": 115000000000,
+        "shortDescription": "Named for the equator, with Galapagos Islands and diverse ecosystems.",
+        "description": "Ecuador is named after the equator which crosses the country. Includes the unique Galapagos Islands with extraordinary wildlife. Features Andean highlands, Amazon basin, and Pacific coast. Uses the US dollar as official currency."
+      },
+      {
+        "name": "Guyana",
+        "countryCode": "GY",
+        "capital": "Georgetown",
+        "population": 813834,
+        "area": 214969,
+        "subregion": "South America",
+        "languages": [
+          "English"
+        ],
+        "currency": "Guyanese Dollar (GYD)",
+        "callingCode": "+592",
+        "flag": "🇬🇾",
+        "gdp": 15600000000,
+        "shortDescription": "Only English-speaking country in South America with vast rainforests.",
+        "description": "Guyana is the only English-speaking country in South America, with Caribbean culture and vast Amazon rainforest. Recently discovered major offshore oil reserves are transforming its economy. Features Kaieteur Falls, one of the world's most powerful waterfalls."
+      },
+      {
+        "name": "Paraguay",
+        "countryCode": "PY",
+        "capital": "Asunción",
+        "population": 6861524,
+        "area": 406752,
+        "subregion": "South America",
+        "languages": [
+          "Spanish",
+          "Guaraní"
+        ],
+        "currency": "Paraguayan Guaraní (PYG)",
+        "callingCode": "+595",
+        "flag": "🇵🇾",
+        "gdp": 41000000000,
+        "shortDescription": "Landlocked nation with strong indigenous Guaraní culture and language.",
+        "description": "Paraguay is a landlocked country with a unique bilingual culture where Guaraní is widely spoken alongside Spanish. Known for yerba mate production and hydroelectric power generation. Has a history of Jesuit missions and the devastating Triple Alliance War."
+      },
+      {
+        "name": "Peru",
+        "countryCode": "PE",
+        "capital": "Lima",
+        "population": 34352719,
+        "area": 1285216,
+        "subregion": "South America",
+        "languages": [
+          "Spanish",
+          "Quechua",
+          "Aymara"
+        ],
+        "currency": "Peruvian Sol (PEN)",
+        "callingCode": "+51",
+        "flag": "🇵🇪",
+        "gdp": 242000000000,
+        "shortDescription": "Heart of Inca Empire with Machu Picchu and diverse geography.",
+        "description": "Peru was the center of the Inca Empire and home to Machu Picchu. Features three distinct regions: coastal desert, Andean highlands, and Amazon rainforest. Known for diverse cuisine, including ceviche, and ancient civilizations like the Nazca lines."
+      },
+      {
+        "name": "Suriname",
+        "countryCode": "SR",
+        "capital": "Paramaribo",
+        "population": 623236,
+        "area": 163820,
+        "subregion": "South America",
+        "languages": [
+          "Dutch"
+        ],
+        "currency": "Surinamese Dollar (SRD)",
+        "callingCode": "+597",
+        "flag": "🇸🇷",
+        "gdp": 3000000000,
+        "shortDescription": "Smallest South American country with Dutch colonial heritage and diverse culture.",
+        "description": "Suriname is the smallest country in South America and the only Dutch-speaking nation in the region. Features diverse ethnic groups and religions living harmoniously. Mostly covered by Amazon rainforest with rich biodiversity and Dutch colonial architecture in the capital."
+      },
+      {
+        "name": "Uruguay",
+        "countryCode": "UY",
+        "capital": "Montevideo",
+        "population": 3423108,
+        "area": 181034,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Uruguayan Peso (UYU)",
+        "callingCode": "+598",
+        "flag": "🇺🇾",
+        "gdp": 71000000000,
+        "shortDescription": "Progressive nation with stable democracy and Atlantic beaches.",
+        "description": "Uruguay is known for its stable democracy, progressive social policies, and high standard of living. Features rolling grasslands and beautiful Atlantic beaches. Famous for mate tea consumption, beef production, and football passion. One of South America's most developed nations."
+      },
+      {
+        "name": "Venezuela",
+        "countryCode": "VE",
+        "capital": "Caracas",
+        "population": 28838499,
+        "area": 916445,
+        "subregion": "South America",
+        "languages": [
+          "Spanish"
+        ],
+        "currency": "Venezuelan Bolívar (VES)",
+        "callingCode": "+58",
+        "flag": "🇻🇪",
+        "gdp": 70000000000,
+        "shortDescription": "Oil-rich nation with Angel Falls and current economic challenges.",
+        "description": "Venezuela has the world's largest oil reserves but faces severe economic and political crises. Features Angel Falls, the highest uninterrupted waterfall, and diverse landscapes from Andes mountains to Caribbean coastline. Once one of Latin America's wealthiest nations, now experiencing hyperinflation and migration."
+      }
+    ]
+  },
+  {
+    "name": "Antarctica",
+    "population": 0,
+    "area": 14200000,
+    "numberOfCountries": 0,
+    "countries": []
+  }
+]
+
+
+
+
+
+
+
+
+
