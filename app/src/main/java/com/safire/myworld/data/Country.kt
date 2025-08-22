@@ -17,5 +17,4 @@ data class Country(
     val gdp: Long,
     val shortDescription: String,
     val description: String
-
 )
