@@ -1,7 +1,5 @@
-package com.safire.myworld.model
+package com.safire.myworld.data
 
-import androidx.annotation.DrawableRes
-import androidx.annotation.StringRes
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -1,4 +1,4 @@
-package com.safire.myworld.model
+package com.safire.myworld.data
 
 import kotlinx.serialization.Serializable
 
