@@ -23,7 +23,7 @@
         "flag": "🇦🇫",
         "gdp": 14600000000,
         "shortDescription": "Landlocked country known for its rugged Hindu Kush mountains and rich cultural history.",
-        "description": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a mountainous, landlocked nation at the crossroads of Central and South Asia. Its landscape is dominated by the Hindu Kush range. The country has a deep history as a key location on the ancient Silk Road, leading to a diverse cultural heritage reflected in its traditional crafts, music, and poetry."
+        "description": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a mountainous, landlocked nation at the crossroads of Central and South Asia. Its landscape is dominated by the Hindu Kush range.\nThe country has a deep history as a key location on the ancient Silk Road, leading to a diverse cultural heritage reflected in its traditional crafts, music, and poetry."
       },
       {
         "name": "Armenia",
@@ -40,7 +40,7 @@
         "flag": "🇦🇲",
         "gdp": 19500000000,
         "shortDescription": "First nation to adopt Christianity, renowned for ancient monasteries and chess.",
-        "description": "Armenia, officially the Republic of Armenia, was the first state in the world to adopt Christianity as its official religion in the early 4th century. The country is dotted with ancient monasteries like Tatev and Geghard, set against a dramatic landscape of mountains and valleys. Armenian culture is celebrated for its distinctive khachkars (cross-stones), traditional music, and its world-famous brandy."
+        "description": "Armenia, officially the Republic of Armenia, was the first state in the world to adopt Christianity as its official religion in the early 4th century.\nThe country is dotted with ancient monasteries like Tatev and Geghard, set against a dramatic landscape of mountains and valleys. Armenian culture is celebrated for its distinctive khachkars (cross-stones), traditional music, and its world-famous brandy."
       },
       {
         "name": "Azerbaijan",
@@ -676,7 +676,7 @@
         "flag": "🇱🇷",
         "gdp": 3700000000,
         "shortDescription": "West Africa's first republic with a unique cultural heritage and beautiful coastline.",
-        "description": "Liberia holds a distinctive place in African history as the continent's first modern republic, established through a unique settlement initiative in the 19th century. The country features lush rainforests, vast rubber plantations, and over 500 km of pristine Atlantic coastline with stunning beaches. Liberian culture represents a fascinating blend of various influences, creating distinctive musical traditions, flavorful cuisine, and architectural styles. Despite historical challenges, Liberia is known for its resilience and is rebuilding its economy through agriculture, mining, and sustainable forestry initiatives."
+        "description": "Liberia holds a distinctive place in African history as the continent's first modern republic, established through a unique settlement initiative in the 19th century.\n The country features lush rainforests, vast rubber plantations, and over 500 km of pristine Atlantic coastline with stunning beaches. Liberian culture represents a fascinating blend of various influences, creating distinctive musical traditions, flavorful cuisine, and architectural styles. Despite historical challenges, Liberia is known for its resilience and is rebuilding its economy through agriculture, mining, and sustainable forestry initiatives."
       },
       {
         "name": "Madagascar",
@@ -2659,12 +2659,3 @@
     "countries": []
   }
 ]
-
-
-
-
-
-
-
-
-
