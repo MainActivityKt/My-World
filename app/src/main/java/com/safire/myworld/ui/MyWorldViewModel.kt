@@ -14,8 +14,8 @@ private val dummyCountry = Country(
     "NB",
     "Beninia",
     0,
-    0f, "West America", listOf("English"),
-    "Bennie", "+123", "💡", 0, "naN", "naN"
+    0f, "Oceania", listOf("English"),
+    "Bennies", "+123", "👑", 0, "naN", "naN"
 )
 private val dummyContinent = Continent(
     "West America",
