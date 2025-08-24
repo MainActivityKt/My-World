@@ -102,7 +102,7 @@ fun ContinentItem(
             )
 
             Column(
-                verticalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterVertically),
+                verticalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterVertically),
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(4.dp)
