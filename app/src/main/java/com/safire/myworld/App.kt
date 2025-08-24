@@ -2,11 +2,11 @@ package com.safire.myworld
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -15,10 +15,8 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -41,20 +39,22 @@ import com.safire.myworld.ui.CountriesScreen
 import com.safire.myworld.ui.MyWorldViewModel
 import com.safire.myworld.ui.Screen
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
+import java.io.BufferedReader
+import java.io.File
 import java.io.InputStream
 
 
 @Composable
 fun MyWorldApp(
-    continents: List<Continent>,
+    stringJson: String,
     viewModel: MyWorldViewModel = viewModel(),
     navController: NavHostController = rememberNavController(),
     modifier: Modifier = Modifier
 ) {
+
+    viewModel.retrieveContinents(stringJson)
 
     val drawables = listOf(
         R.drawable.asia_mayon,
@@ -66,12 +66,12 @@ fun MyWorldApp(
         R.drawable.antaractica_penguins
     )
     Scaffold(
-
         topBar = {
             MyWorldTopBar()
         },
     ) { innerPadding ->
         val uiState by viewModel.uiState.collectAsState()
+
 
         NavHost(
             navController = navController,
@@ -80,7 +80,7 @@ fun MyWorldApp(
         ) {
             composable(Screen.CONTINENTS_LIST.name) {
                 ContinentsScreen(
-                    continents, drawables, onContinentClick = { it ->
+                    viewModel.continents, drawables, onContinentClick = { it ->
                         viewModel.changeContinent(it)
                         navController.navigate(Screen.COUNTRIES_LIST.name)
                     }
@@ -88,9 +88,14 @@ fun MyWorldApp(
             }
 
             composable(Screen.COUNTRIES_LIST.name) {
-                Column (Modifier.fillMaxSize()){
-                    CountriesScreen(uiState.selectedContinent.countries, {} )
-                }
+                CountriesScreen(uiState.selectedContinent.countries, {
+                    viewModel.changeCountry(it)
+                    navController.navigate(Screen.COUNTRY_DETAILS.name)
+
+                })
+            }
+            composable(Screen.COUNTRY_DETAILS.name) {
+
             }
 
 
@@ -98,17 +103,7 @@ fun MyWorldApp(
     }
 }
 
-private suspend fun retrieveContinents(file: InputStream): List<Continent> {
-    val data = mutableListOf<Continent>()
 
-    withContext(Dispatchers.IO) {
-
-        val jsonString = file.bufferedReader().use { it.readText() }
-        data.addAll(Json.decodeFromString<List<Continent>>(jsonString))
-    }
-
-    return data
-}
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -159,8 +154,12 @@ fun IconText(
             color = color,
             fontWeight = FontWeight.Medium,
             style = MaterialTheme.typography.titleMedium.copy(
-                shadow = if (addShadow) Shadow(Color.White, offset = Offset(4f, 5f), blurRadius = 16f) else Shadow(),
-                ),
+                shadow = if (addShadow) Shadow(
+                    Color.White,
+                    offset = Offset(4f, 5f),
+                    blurRadius = 16f
+                ) else Shadow(),
+            ),
             fontSize = 16.sp,
         )
     }
@@ -181,7 +180,7 @@ fun AppPreview() {
 
     MyWorldTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            MyWorldApp(dummyList)
+            MyWorldApp("dummyList")
         }
     }
 }

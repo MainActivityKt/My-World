@@ -4,29 +4,23 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.runtime.mutableStateOf
 import com.example.compose.MyWorldTheme
 import com.safire.myworld.data.Continent
-import kotlinx.serialization.json.Json
-import java.io.InputStream
 
 class MainActivity : ComponentActivity() {
+
+    val isLoading = mutableStateOf(true)
+    lateinit var continents: MutableList<Continent>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val continents = retrieveContinents(assets.open("data.json"))
+        val stringJson = assets.open("data.json").bufferedReader().use { it.readText() }
         setContent {
             MyWorldTheme {
-                MyWorldApp(continents)
+                MyWorldApp(stringJson)
             }
         }
     }
-}
-
-private fun retrieveContinents(file: InputStream): List<Continent> {
-    val continents = mutableListOf<Continent>()
-
-    val jsonString = file.bufferedReader().use { it.readText() }
-    val json = Json{ ignoreUnknownKeys = true }
-    continents.addAll(json.decodeFromString<List<Continent>>(jsonString))
-    return continents
 }
