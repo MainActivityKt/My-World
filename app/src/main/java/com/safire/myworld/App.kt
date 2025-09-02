@@ -1,12 +1,12 @@
 package com.safire.myworld
 
+import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -34,16 +34,12 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.compose.MyWorldTheme
 import com.safire.myworld.data.Continent
+import com.safire.myworld.data.Country
+import com.safire.myworld.data.MyWorldUiState
 import com.safire.myworld.ui.ContinentsScreen
 import com.safire.myworld.ui.CountriesScreen
 import com.safire.myworld.ui.MyWorldViewModel
 import com.safire.myworld.ui.Screen
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json
-import java.io.BufferedReader
-import java.io.File
-import java.io.InputStream
 
 
 @Composable
@@ -104,8 +100,6 @@ fun MyWorldApp(
 }
 
 
-
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyWorldTopBar(modifier: Modifier = Modifier) {
@@ -128,7 +122,7 @@ fun MyWorldTopBar(modifier: Modifier = Modifier) {
                 contentDescription = "app icon",
                 Modifier.size(32.dp)
             )
-        }
+        }, modifier = Modifier
     )
 }
 
@@ -165,22 +159,98 @@ fun IconText(
     }
 }
 
-@Preview(showBackground = true)
+// Special version of the app's screen for previews, with viewmodel removed
 @Composable
-fun AppPreview() {
+fun MyWorldApp(
+    navController: NavHostController = rememberNavController(),
+    modifier: Modifier = Modifier) {
 
-    val dummyContinent = Continent(
-        "South East Asia",
-        4835320000,
-        44579000,
-        49U,
+    val dummyCountry = Country(
+        "New Benia",
+        "NB",
+        "Beniston",
+        12005415451,
+        352116144f, "Central America", listOf("English"),
+        "Bennies", "+000", "\uD83D\uDC51", 0, "A kingdom run by Ben, from Viva la dirt League.", "naN"
     )
 
-    val dummyList = List(7) { dummyContinent }
+    val dummyContinent = Continent(
+        "Central America",
+        1234567489,
+        123456,
+        12u,
+        countries = List(12) { dummyCountry }
+    )
+
+    val continents = List(7) { dummyContinent }
+
+
+    val drawables = listOf(
+        R.drawable.asia_mayon,
+        R.drawable.africa_pyramids,
+        R.drawable.melbourne,
+        R.drawable.europe__colloseum,
+        R.drawable.north_america_capitol,
+        R.drawable.rio_de_janeiro,
+        R.drawable.antaractica_penguins
+    )
+    Scaffold(
+        topBar = {
+            MyWorldTopBar()
+        },
+    ) { innerPadding ->
+        var uiState =MyWorldUiState(continents[0].countries.first(), continents.first())
+
+
+        NavHost(
+            navController = navController,
+            startDestination = Screen.CONTINENTS_LIST.name,
+            modifier = Modifier.padding(innerPadding)
+        ) {
+            composable(Screen.CONTINENTS_LIST.name) {
+                ContinentsScreen(
+                    continents, drawables, onContinentClick = { it ->
+                        uiState = uiState.copy(selectedContinent = it)
+                        navController.navigate(Screen.COUNTRIES_LIST.name)
+                    }
+                )
+            }
+
+            composable(Screen.COUNTRIES_LIST.name) {
+                CountriesScreen(uiState.selectedContinent.countries, {
+                    uiState = uiState.copy(selectedCountry = it)
+                    navController.navigate(Screen.COUNTRY_DETAILS.name)
+
+                })
+            }
+            composable(Screen.COUNTRY_DETAILS.name) {
+
+            }
+        }
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun AppPreviewLightMode() {
 
     MyWorldTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            MyWorldApp("dummyList")
+            MyWorldApp()
+        }
+    }
+}
+
+
+@Preview(
+    showBackground = true, showSystemUi = true,
+    uiMode = Configuration.UI_MODE_NIGHT_YES or Configuration.UI_MODE_TYPE_NORMAL
+)
+@Composable
+fun AppPreviewDarkMode() {
+    MyWorldTheme {
+        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            MyWorldApp()
         }
     }
 }
