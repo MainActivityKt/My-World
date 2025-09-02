@@ -6,12 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.mutableStateOf
 import com.example.compose.MyWorldTheme
-import com.safire.myworld.data.Continent
 
 class MainActivity : ComponentActivity() {
-
-    val isLoading = mutableStateOf(true)
-    lateinit var continents: MutableList<Continent>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
