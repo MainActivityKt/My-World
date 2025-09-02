@@ -43,7 +43,7 @@ private val dummyCountry = Country(
     "NG",
     "Abuja",
     12005415451,
-    454116144f, "North Africa", listOf("English", "Igbo"),
+    454116144f, "West Africa", listOf("English"),
     "Naira", "+234", "\uD83C\uDDF3\uD83C\uDDEC", 0, "Africa's cultural powerhouse and largest economy, renowned for its vibrant music, film industry, and diverse traditions.", "naN"
 )
 
@@ -155,15 +155,10 @@ fun CountryItem(
                         fontWeight = FontWeight.SemiBold
 
                     )
-
-
                 }
             }
         }
-
-
     }
-
 }
 
 @Preview
