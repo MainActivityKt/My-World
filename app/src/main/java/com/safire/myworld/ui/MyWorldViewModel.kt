@@ -13,11 +13,13 @@ import kotlinx.serialization.json.Json
 
 
 class MyWorldViewModel : ViewModel() {
-    var selectedCountry: Country = Country(
+    private val dummyCountry: Country = Country(
         "Empty", "", "", 0 ,33f, "", listOf(""), "", "", "", 0,"", "" );
-    var selectedContinent: Continent = Continent("", 0, 0, 0u, listOf(selectedCountry));
-    private val _uiState = MutableStateFlow(MyWorldUiState(selectedCountry, selectedContinent))
+    private val dummyContinent: Continent = Continent("", 0, 0, 0u, listOf(dummyCountry));
+
+    private val _uiState = MutableStateFlow(MyWorldUiState(dummyCountry, dummyContinent))
     val uiState = _uiState.asStateFlow()
+    var selectedCountryIndex = -1
 
     lateinit var continents: List<Continent>
 
@@ -25,8 +27,6 @@ class MyWorldViewModel : ViewModel() {
 
         viewModelScope.launch {
             continents = Json.decodeFromString<List<Continent>>(stringJson)
-            selectedContinent = continents.first()
-            selectedCountry = selectedContinent.countries.first()
         }
     }
 
@@ -37,7 +37,27 @@ class MyWorldViewModel : ViewModel() {
         }
     }
 
-    fun changeCountry(country: Country) {
+    fun previousCountry() {
+        _uiState.update { currentState ->
+            currentState.copy(selectedCountry = _uiState.value.selectedContinent.countries[selectedCountryIndex - 1])
+        }
+        selectedCountryIndex--
+    }
+
+    fun nextCountry() {
+        _uiState.update { currentState ->
+            currentState.copy(selectedCountry = _uiState.value.selectedContinent.countries[selectedCountryIndex + 1])
+        }
+        selectedCountryIndex++
+    }
+
+    fun previousButtonEnabled() = selectedCountryIndex > 0
+    fun nextButtonEnabled() = selectedCountryIndex <  _uiState.value.selectedContinent.countries.lastIndex
+
+
+
+    fun changeCountry(country: Country, index: Int) {
+        selectedCountryIndex = index
         _uiState.update { currentState ->
             currentState.copy(selectedCountry = country)
         }
