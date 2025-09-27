@@ -1,6 +1,7 @@
 package com.safire.myworld
 
 import android.content.res.Configuration
+import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -22,6 +23,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -38,6 +40,7 @@ import com.safire.myworld.data.Country
 import com.safire.myworld.data.MyWorldUiState
 import com.safire.myworld.ui.ContinentsScreen
 import com.safire.myworld.ui.CountriesScreen
+import com.safire.myworld.ui.CountryDetails
 import com.safire.myworld.ui.MyWorldViewModel
 import com.safire.myworld.ui.Screen
 
@@ -69,6 +72,12 @@ fun MyWorldApp(
         val uiState by viewModel.uiState.collectAsState()
 
 
+        val emptyCountriesToast = Toast.makeText(
+            LocalContext.current,
+            "No countries in this continent",
+            Toast.LENGTH_LONG
+        )
+
         NavHost(
             navController = navController,
             startDestination = Screen.CONTINENTS_LIST.name,
@@ -77,24 +86,37 @@ fun MyWorldApp(
             composable(Screen.CONTINENTS_LIST.name) {
                 ContinentsScreen(
                     viewModel.continents, drawables, onContinentClick = { it ->
-                        viewModel.changeContinent(it)
-                        navController.navigate(Screen.COUNTRIES_LIST.name)
+
+                        if (it.numberOfCountries > 0u) {
+                            viewModel.changeContinent(it)
+                            navController.navigate(Screen.COUNTRIES_LIST.name)
+                        } else {
+                            emptyCountriesToast.show()
+                        }
+
                     }
                 )
             }
 
             composable(Screen.COUNTRIES_LIST.name) {
-                CountriesScreen(uiState.selectedContinent.countries, {
-                    viewModel.changeCountry(it)
-                    navController.navigate(Screen.COUNTRY_DETAILS.name)
+                CountriesScreen(
+                    uiState.selectedContinent.countries,
+                    { country, index ->
+                        viewModel.changeCountry(country, index)
 
-                })
+                        navController.navigate(Screen.COUNTRY_DETAILS.name)
+
+                    })
             }
             composable(Screen.COUNTRY_DETAILS.name) {
-
+                CountryDetails(
+                    selectedCountry = uiState.selectedCountry,
+                    previousEnabled = viewModel.previousButtonEnabled(),
+                    onPrevious = { viewModel.previousCountry() },
+                    nextEnabled = viewModel.nextButtonEnabled(),
+                    onNext = { viewModel.nextCountry() },
+                )
             }
-
-
         }
     }
 }
@@ -154,7 +176,7 @@ fun IconText(
                     blurRadius = 16f
                 ) else Shadow(),
             ),
-            fontSize = 16.sp,
+            fontSize = 20.sp,
         )
     }
 }
@@ -163,15 +185,23 @@ fun IconText(
 @Composable
 fun MyWorldApp(
     navController: NavHostController = rememberNavController(),
-    modifier: Modifier = Modifier) {
+    modifier: Modifier = Modifier
+) {
 
     val dummyCountry = Country(
         "New Benia",
         "NB",
         "Beniston",
         12005415451,
-        352116144f, "Central America", listOf("English"),
-        "Bennies", "+000", "\uD83D\uDC51", 0, "A kingdom run by Ben, from Viva la dirt League.", "naN"
+        3521144f,
+        "Central America",
+        listOf("English"),
+        "Bennies",
+        "+000",
+        "\uD83D\uDC51",
+        0,
+        "A kingdom run by Ben, from Viva la dirt League.",
+        "naN"
     )
 
     val dummyContinent = Continent(
@@ -199,8 +229,13 @@ fun MyWorldApp(
             MyWorldTopBar()
         },
     ) { innerPadding ->
-        var uiState =MyWorldUiState(continents[0].countries.first(), continents.first())
+        var uiState = MyWorldUiState(continents[0].countries.first(), continents.first())
 
+        val emptyCountriesToast = Toast.makeText(
+            LocalContext.current,
+            "Zero countries in this continent",
+            Toast.LENGTH_SHORT
+        )
 
         NavHost(
             navController = navController,
@@ -210,15 +245,21 @@ fun MyWorldApp(
             composable(Screen.CONTINENTS_LIST.name) {
                 ContinentsScreen(
                     continents, drawables, onContinentClick = { it ->
-                        uiState = uiState.copy(selectedContinent = it)
-                        navController.navigate(Screen.COUNTRIES_LIST.name)
+                        if (it.numberOfCountries > 0u) {
+                            uiState = uiState.copy(selectedContinent = it)
+                            navController.navigate(Screen.COUNTRIES_LIST.name)
+                        } else {
+                            emptyCountriesToast.show()
+                        }
+
+
                     }
                 )
             }
 
             composable(Screen.COUNTRIES_LIST.name) {
-                CountriesScreen(uiState.selectedContinent.countries, {
-                    uiState = uiState.copy(selectedCountry = it)
+                CountriesScreen(uiState.selectedContinent.countries, { country, index ->
+                    uiState = uiState.copy(selectedCountry = country)
                     navController.navigate(Screen.COUNTRY_DETAILS.name)
 
                 })

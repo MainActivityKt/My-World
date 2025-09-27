@@ -43,14 +43,14 @@ private val dummyCountry = Country(
     "NG",
     "Abuja",
     12005415451,
-    454116144f, "West Africa", listOf("English"),
+    4541161f, "West Africa", listOf("English"),
     "Naira", "+234", "\uD83C\uDDF3\uD83C\uDDEC", 0, "Africa's cultural powerhouse and largest economy, renowned for its vibrant music, film industry, and diverse traditions.", "naN"
 )
 
 @Composable
 fun CountriesScreen(
     countries: List<Country>,
-    onCountryClick: (Country) -> Unit,
+    onCountryClick: (Country, index: Int) -> Unit,
     modifier: Modifier = Modifier
 ) {
 
@@ -58,7 +58,7 @@ fun CountriesScreen(
         contentPadding = PaddingValues(2.dp),
     ) {
         itemsIndexed(countries) { index, country ->
-            CountryItem(country, onCountryClick)
+            CountryItem(country, { onCountryClick(it, index) })
         }
     }
 }
@@ -93,7 +93,7 @@ fun CountryItem(
                 alpha = 0.3f,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(220.dp)
+                    .height(200.dp)
                 // transparency
 
             )
@@ -133,12 +133,6 @@ fun CountryItem(
                         color = MaterialTheme.colorScheme.onPrimaryContainer
                     )
 
-                    IconText(
-                        painterResource(R.drawable.population),
-                        "Population",
-                        String.format("%,d", country.population),
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
 
                     IconText(
                         painterResource(R.drawable.language),
@@ -151,7 +145,7 @@ fun CountryItem(
                         country.shortDescription,
                         color = MaterialTheme.colorScheme.onPrimaryContainer,
                         style = MaterialTheme.typography.titleMedium,
-                        fontSize = 16.sp,
+                        fontSize = 18.sp,
                         fontWeight = FontWeight.SemiBold
 
                     )
@@ -166,7 +160,7 @@ fun CountryItem(
 private fun CountriesScreenPreview() {
     MyWorldTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            CountriesScreen(List(3){ dummyCountry }, {Country ->})
+            CountriesScreen(List(3){ dummyCountry }, { country, index ->  })
         }
     }
 }
