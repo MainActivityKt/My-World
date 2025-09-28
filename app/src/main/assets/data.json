@@ -1,5 +1,3 @@
-
-
 [
   {
     "name": "Asia",
@@ -14,7 +12,10 @@
         "population": 44555960,
         "area": 652230,
         "subregion": "Southern Asia",
-        "languages": ["Dari", "Pashto"],
+        "languages": [
+          "Dari",
+          "Pashto"
+        ],
         "currency": "Afghani (AFN)",
         "callingCode": "+93",
         "flag": "🇦🇫",
@@ -29,7 +30,9 @@
         "population": 2952500,
         "area": 29743,
         "subregion": "Western Asia",
-        "languages": ["Armenian"],
+        "languages": [
+          "Armenian"
+        ],
         "currency": "Dram (AMD)",
         "callingCode": "+374",
         "flag": "🇦🇲",
@@ -44,7 +47,9 @@
         "population": 10412600,
         "area": 86600,
         "subregion": "Western Asia",
-        "languages": ["Azerbaijani"],
+        "languages": [
+          "Azerbaijani"
+        ],
         "currency": "Azerbaijani Manat (AZN)",
         "callingCode": "+994",
         "flag": "🇦🇿",
@@ -59,7 +64,9 @@
         "population": 1472233,
         "area": 765,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Bahraini Dinar (BHD)",
         "callingCode": "+973",
         "flag": "🇧🇭",
@@ -74,7 +81,9 @@
         "population": 172954319,
         "area": 147570,
         "subregion": "Southern Asia",
-        "languages": ["Bengali"],
+        "languages": [
+          "Bengali"
+        ],
         "currency": "Bangladeshi Taka (BDT)",
         "callingCode": "+880",
         "flag": "🇧🇩",
@@ -89,7 +98,9 @@
         "population": 787425,
         "area": 38394,
         "subregion": "Southern Asia",
-        "languages": ["Dzongkha"],
+        "languages": [
+          "Dzongkha"
+        ],
         "currency": "Ngultrum (BTN)",
         "callingCode": "+975",
         "flag": "🇧🇹",
@@ -104,7 +115,9 @@
         "population": 452524,
         "area": 5765,
         "subregion": "South-Eastern Asia",
-        "languages": ["Malay"],
+        "languages": [
+          "Malay"
+        ],
         "currency": "Brunei Dollar (BND)",
         "callingCode": "+673",
         "flag": "🇧🇳",
@@ -119,7 +132,9 @@
         "population": 16767865,
         "area": 181035,
         "subregion": "South-Eastern Asia",
-        "languages": ["Khmer"],
+        "languages": [
+          "Khmer"
+        ],
         "currency": "Cambodian Riel (KHR)",
         "callingCode": "+855",
         "flag": "🇰🇭",
@@ -134,7 +149,9 @@
         "population": 1425671352,
         "area": 9596961,
         "subregion": "Eastern Asia",
-        "languages": ["Standard Chinese"],
+        "languages": [
+          "Standard Chinese"
+        ],
         "currency": "Chinese Yuan (CNY)",
         "callingCode": "+86",
         "flag": "🇨🇳",
@@ -149,7 +166,10 @@
         "population": 1244188,
         "area": 9251,
         "subregion": "Western Asia",
-        "languages": ["Greek", "Turkish"],
+        "languages": [
+          "Greek",
+          "Turkish"
+        ],
         "currency": "Euro (EUR)",
         "callingCode": "+357",
         "flag": "🇨🇾",
@@ -164,7 +184,9 @@
         "population": 3714000,
         "area": 69700,
         "subregion": "Western Asia",
-        "languages": ["Georgian"],
+        "languages": [
+          "Georgian"
+        ],
         "currency": "Georgian Lari (GEL)",
         "callingCode": "+995",
         "flag": "🇬🇪",
@@ -179,7 +201,10 @@
         "population": 1428627663,
         "area": 3287263,
         "subregion": "Southern Asia",
-        "languages": ["Hindi", "English"],
+        "languages": [
+          "Hindi",
+          "English"
+        ],
         "currency": "Indian Rupee (INR)",
         "callingCode": "+91",
         "flag": "🇮🇳",
@@ -194,7 +219,9 @@
         "population": 277534122,
         "area": 1904569,
         "subregion": "South-Eastern Asia",
-        "languages": ["Indonesian"],
+        "languages": [
+          "Indonesian"
+        ],
         "currency": "Indonesian Rupiah (IDR)",
         "callingCode": "+62",
         "flag": "🇮🇩",
@@ -209,7 +236,9 @@
         "population": 89172767,
         "area": 1648195,
         "subregion": "Southern Asia",
-        "languages": ["Persian"],
+        "languages": [
+          "Persian"
+        ],
         "currency": "Iranian Rial (IRR)",
         "callingCode": "+98",
         "flag": "🇮🇷",
@@ -224,7 +253,10 @@
         "population": 45504560,
         "area": 438317,
         "subregion": "Western Asia",
-        "languages": ["Arabic", "Kurdish"],
+        "languages": [
+          "Arabic",
+          "Kurdish"
+        ],
         "currency": "Iraqi Dinar (IQD)",
         "callingCode": "+964",
         "flag": "🇮🇶",
@@ -239,7 +271,10 @@
         "population": 9174520,
         "area": 20770,
         "subregion": "Western Asia",
-        "languages": ["Hebrew", "Arabic"],
+        "languages": [
+          "Hebrew",
+          "Arabic"
+        ],
         "currency": "Israeli New Shekel (ILS)",
         "callingCode": "+972",
         "flag": "🇮🇱",
@@ -254,7 +289,9 @@
         "population": 123294513,
         "area": 377975,
         "subregion": "Eastern Asia",
-        "languages": ["Japanese"],
+        "languages": [
+          "Japanese"
+        ],
         "currency": "Japanese Yen (JPY)",
         "callingCode": "+81",
         "flag": "🇯🇵",
@@ -269,7 +306,9 @@
         "population": 11285869,
         "area": 89342,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Jordanian Dinar (JOD)",
         "callingCode": "+962",
         "flag": "🇯🇴",
@@ -284,7 +323,10 @@
         "population": 19606633,
         "area": 2724900,
         "subregion": "Central Asia",
-        "languages": ["Kazakh", "Russian"],
+        "languages": [
+          "Kazakh",
+          "Russian"
+        ],
         "currency": "Kazakhstani Tenge (KZT)",
         "callingCode": "+7",
         "flag": "🇰🇿",
@@ -299,7 +341,9 @@
         "population": 4310108,
         "area": 17818,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Kuwaiti Dinar (KWD)",
         "callingCode": "+965",
         "flag": "🇰🇼",
@@ -314,7 +358,10 @@
         "population": 6630623,
         "area": 199951,
         "subregion": "Central Asia",
-        "languages": ["Kyrgyz", "Russian"],
+        "languages": [
+          "Kyrgyz",
+          "Russian"
+        ],
         "currency": "Kyrgyzstani Som (KGS)",
         "callingCode": "+996",
         "flag": "🇰🇬",
@@ -329,7 +376,9 @@
         "population": 7588420,
         "area": 236800,
         "subregion": "South-Eastern Asia",
-        "languages": ["Lao"],
+        "languages": [
+          "Lao"
+        ],
         "currency": "Lao Kip (LAK)",
         "callingCode": "+856",
         "flag": "🇱🇦",
@@ -344,7 +393,9 @@
         "population": 5353930,
         "area": 10452,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Lebanese Pound (LBP)",
         "callingCode": "+961",
         "flag": "🇱🇧",
@@ -359,7 +410,9 @@
         "population": 34308525,
         "area": 330803,
         "subregion": "South-Eastern Asia",
-        "languages": ["Malay"],
+        "languages": [
+          "Malay"
+        ],
         "currency": "Malaysian Ringgit (MYR)",
         "callingCode": "+60",
         "flag": "🇲🇾",
@@ -374,7 +427,9 @@
         "population": 521457,
         "area": 298,
         "subregion": "Southern Asia",
-        "languages": ["Dhivehi"],
+        "languages": [
+          "Dhivehi"
+        ],
         "currency": "Maldivian Rufiyaa (MVR)",
         "callingCode": "+960",
         "flag": "🇲🇻",
@@ -389,7 +444,9 @@
         "population": 3447157,
         "area": 1564110,
         "subregion": "Eastern Asia",
-        "languages": ["Mongolian"],
+        "languages": [
+          "Mongolian"
+        ],
         "currency": "Mongolian Tögrög (MNT)",
         "callingCode": "+976",
         "flag": "🇲🇳",
@@ -404,7 +461,9 @@
         "population": 54179306,
         "area": 676578,
         "subregion": "South-Eastern Asia",
-        "languages": ["Burmese"],
+        "languages": [
+          "Burmese"
+        ],
         "currency": "Myanmar Kyat (MMK)",
         "callingCode": "+95",
         "flag": "🇲🇲",
@@ -419,7 +478,9 @@
         "population": 30547580,
         "area": 147181,
         "subregion": "Southern Asia",
-        "languages": ["Nepali"],
+        "languages": [
+          "Nepali"
+        ],
         "currency": "Nepalese Rupee (NPR)",
         "callingCode": "+977",
         "flag": "🇳🇵",
@@ -434,7 +495,9 @@
         "population": 26160821,
         "area": 120538,
         "subregion": "Eastern Asia",
-        "languages": ["Korean"],
+        "languages": [
+          "Korean"
+        ],
         "currency": "North Korean Won (KPW)",
         "callingCode": "+850",
         "flag": "🇰🇵",
@@ -449,7 +512,9 @@
         "population": 4622811,
         "area": 309500,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Omani Rial (OMR)",
         "callingCode": "+968",
         "flag": "🇴🇲",
@@ -464,7 +529,10 @@
         "population": 240485658,
         "area": 881912,
         "subregion": "Southern Asia",
-        "languages": ["Urdu", "English"],
+        "languages": [
+          "Urdu",
+          "English"
+        ],
         "currency": "Pakistani Rupee (PKR)",
         "callingCode": "+92",
         "flag": "🇵🇰",
@@ -479,7 +547,9 @@
         "population": 5250076,
         "area": 6020,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Israeli Shekel (ILS), Jordanian Dinar (JOD)",
         "callingCode": "+970",
         "flag": "🇵🇸",
@@ -494,7 +564,10 @@
         "population": 117337368,
         "area": 342353,
         "subregion": "South-Eastern Asia",
-        "languages": ["Filipino", "English"],
+        "languages": [
+          "Filipino",
+          "English"
+        ],
         "currency": "Philippine Peso (PHP)",
         "callingCode": "+63",
         "flag": "🇵🇭",
@@ -509,7 +582,9 @@
         "population": 2716391,
         "area": 11586,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Qatari Riyal (QAR)",
         "callingCode": "+974",
         "flag": "🇶🇦",
@@ -524,7 +599,9 @@
         "population": 144444359,
         "area": 17098242,
         "subregion": "Eastern Europe",
-        "languages": ["Russian"],
+        "languages": [
+          "Russian"
+        ],
         "currency": "Russian Ruble (RUB)",
         "callingCode": "+7",
         "flag": "🇷🇺",
@@ -539,7 +616,9 @@
         "population": 36947025,
         "area": 2149690,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Saudi Riyal (SAR)",
         "callingCode": "+966",
         "flag": "🇸🇦",
@@ -554,7 +633,12 @@
         "population": 6014723,
         "area": 719,
         "subregion": "South-Eastern Asia",
-        "languages": ["English", "Malay", "Mandarin", "Tamil"],
+        "languages": [
+          "English",
+          "Malay",
+          "Mandarin",
+          "Tamil"
+        ],
         "currency": "Singapore Dollar (SGD)",
         "callingCode": "+65",
         "flag": "🇸🇬",
@@ -569,7 +653,9 @@
         "population": 51780579,
         "area": 100210,
         "subregion": "Eastern Asia",
-        "languages": ["Korean"],
+        "languages": [
+          "Korean"
+        ],
         "currency": "South Korean Won (KRW)",
         "callingCode": "+82",
         "flag": "🇰🇷",
@@ -584,7 +670,10 @@
         "population": 21893579,
         "area": 65610,
         "subregion": "Southern Asia",
-        "languages": ["Sinhala", "Tamil"],
+        "languages": [
+          "Sinhala",
+          "Tamil"
+        ],
         "currency": "Sri Lankan Rupee (LKR)",
         "callingCode": "+94",
         "flag": "🇱🇰",
@@ -599,7 +688,9 @@
         "population": 23227014,
         "area": 185180,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Syrian Pound (SYP)",
         "callingCode": "+963",
         "flag": "🇸🇾",
@@ -614,7 +705,9 @@
         "population": 10143543,
         "area": 143100,
         "subregion": "Central Asia",
-        "languages": ["Tajik"],
+        "languages": [
+          "Tajik"
+        ],
         "currency": "Tajikistani Somoni (TJS)",
         "callingCode": "+992",
         "flag": "🇹🇯",
@@ -629,7 +722,9 @@
         "population": 71801279,
         "area": 513120,
         "subregion": "South-Eastern Asia",
-        "languages": ["Thai"],
+        "languages": [
+          "Thai"
+        ],
         "currency": "Thai Baht (THB)",
         "callingCode": "+66",
         "flag": "🇹🇭",
@@ -644,7 +739,10 @@
         "population": 1360590,
         "area": 14874,
         "subregion": "South-Eastern Asia",
-        "languages": ["Tetum", "Portuguese"],
+        "languages": [
+          "Tetum",
+          "Portuguese"
+        ],
         "currency": "United States Dollar (USD)",
         "callingCode": "+670",
         "flag": "🇹🇱",
@@ -659,7 +757,9 @@
         "population": 85816199,
         "area": 783562,
         "subregion": "Western Asia",
-        "languages": ["Turkish"],
+        "languages": [
+          "Turkish"
+        ],
         "currency": "Turkish Lira (TRY)",
         "callingCode": "+90",
         "flag": "🇹🇷",
@@ -674,7 +774,9 @@
         "population": 6430770,
         "area": 488100,
         "subregion": "Central Asia",
-        "languages": ["Turkmen"],
+        "languages": [
+          "Turkmen"
+        ],
         "currency": "Turkmenistan Manat (TMT)",
         "callingCode": "+993",
         "flag": "🇹🇲",
@@ -689,7 +791,9 @@
         "population": 9516871,
         "area": 83600,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "UAE Dirham (AED)",
         "callingCode": "+971",
         "flag": "🇦🇪",
@@ -704,7 +808,9 @@
         "population": 35163944,
         "area": 447400,
         "subregion": "Central Asia",
-        "languages": ["Uzbek"],
+        "languages": [
+          "Uzbek"
+        ],
         "currency": "Uzbekistani Som (UZS)",
         "callingCode": "+998",
         "flag": "🇺🇿",
@@ -719,7 +825,9 @@
         "population": 98858950,
         "area": 331212,
         "subregion": "South-Eastern Asia",
-        "languages": ["Vietnamese"],
+        "languages": [
+          "Vietnamese"
+        ],
         "currency": "Vietnamese Đồng (VND)",
         "callingCode": "+84",
         "flag": "🇻🇳",
@@ -734,7 +842,9 @@
         "population": 34449825,
         "area": 527968,
         "subregion": "Western Asia",
-        "languages": ["Arabic"],
+        "languages": [
+          "Arabic"
+        ],
         "currency": "Yemeni Rial (YER)",
         "callingCode": "+967",
         "flag": "🇾🇪",
@@ -744,8 +854,6 @@
       }
     ]
   },
-
-
   {
     "name": "Africa",
     "population": 1470000000,
@@ -1244,6 +1352,23 @@
         "description": "Liberia holds a distinctive place in African history as the continent's first modern republic, established through a unique settlement initiative in the 19th century.\n The country features lush rainforests, vast rubber plantations, and over 500 km of pristine Atlantic coastline with stunning beaches. Liberian culture represents a fascinating blend of various influences, creating distinctive musical traditions, flavorful cuisine, and architectural styles. Despite historical challenges, Liberia is known for its resilience and is rebuilding its economy through agriculture, mining, and sustainable forestry initiatives."
       },
       {
+        "name": "Libya",
+        "countryCode": "LY",
+        "capital": "Tripoli",
+        "population": 6871287,
+        "area": 1759540,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic"
+        ],
+        "currency": "Libyan Dinar (LYD)",
+        "callingCode": "+218",
+        "flag": "🇱🇾",
+        "gdp": 44000000000,
+        "shortDescription": "North African nation with vast desert landscapes and ancient Roman ruins along the Mediterranean.",
+        "description": "Libya is dominated by the Sahara Desert, which covers about 90% of the country, yet it boasts a stunning Mediterranean coastline with historic cities. The country contains some of the world's best-preserved Roman ruins, including Leptis Magna and Sabratha. Libya's economy has traditionally been driven by its substantial oil reserves, among the largest in Africa. The culture reflects a blend of Arab, Berber, and Mediterranean influences, with traditional music, crafts, and cuisine that tell the story of its position at the crossroads of ancient trade routes."
+      },
+      {
         "name": "Madagascar",
         "countryCode": "MG",
         "capital": "Antananarivo",
@@ -1329,6 +1454,24 @@
         "gdp": 14000000000,
         "shortDescription": "Tropical island paradise known for its diverse culture and spectacular marine life.",
         "description": "Mauritius is a volcanic island nation renowned for its stunning beaches, coral reefs, and luxurious resorts. The population is remarkably diverse, with Indian, African, Chinese, and European communities creating a unique cultural fusion evident in the cuisine, festivals, and religious practices. The economy has successfully transitioned from sugar production to textiles, tourism, and financial services. The island is home to unique wildlife including the famous (but now extinct) dodo bird, and current conservation efforts protect rare species like the Mauritius kestrel."
+      },
+      {
+        "name": "Morocco",
+        "countryCode": "MA",
+        "capital": "Rabat",
+        "population": 37344787,
+        "area": 446550,
+        "subregion": "Northern Africa",
+        "languages": [
+          "Arabic",
+          "Berber"
+        ],
+        "currency": "Moroccan Dirham (MAD)",
+        "callingCode": "+212",
+        "flag": "🇲🇦",
+        "gdp": 154000000000,
+        "shortDescription": "North African kingdom known for vibrant markets, ancient cities, and diverse landscapes from mountains to deserts.",
+        "description": "The Kingdom of Morocco is a country of incredible diversity, featuring Atlantic and Mediterranean coastlines, the Atlas Mountains, and the Sahara Desert. The country is famous for its historic imperial cities like Marrakech, Fez, and Meknes, with their labyrinthine medinas and vibrant souks. Moroccan culture is a rich blend of Arab, Berber, African, and European influences, evident in its distinctive architecture, music, and world-renowned cuisine featuring tagines and couscous. Morocco is also known for its traditional craftsmanship in leather, metalwork, and textiles."
       },
       {
         "name": "Mozambique",
@@ -1504,6 +1647,27 @@
         "gdp": 7900000000,
         "shortDescription": "Nation with Africa's longest coastline, rich maritime history, and resilient nomadic culture.",
         "description": "Somalia possesses Africa's longest coastline, stretching over 3,300 km along the Indian Ocean and Gulf of Aden. This strategic location made it an important center for ancient trade between Africa, Arabia, and Asia. Somali culture is strongly influenced by nomadic traditions, with poetry holding a particularly esteemed place in artistic expression. The country is known for its distinctive architecture featuring whitewashed buildings and intricate designs. Somalia has given the world famous frankincense and myrrh for centuries, and its waters are rich with marine life. The resilience and entrepreneurial spirit of the Somali people are recognized worldwide."
+      },
+      {
+        "name": "South Africa",
+        "countryCode": "ZA",
+        "capital": "Pretoria",
+        "population": 60604987,
+        "area": 1221037,
+        "subregion": "Southern Africa",
+        "languages": [
+          "Zulu",
+          "Xhosa",
+          "Afrikaans",
+          "English",
+          "Others"
+        ],
+        "currency": "South African Rand (ZAR)",
+        "callingCode": "+27",
+        "flag": "🇿🇦",
+        "gdp": 405000000000,
+        "shortDescription": "Rainbow Nation with diverse cultures, stunning landscapes, and significant mineral wealth.",
+        "description": "The Republic of South Africa is known as the 'Rainbow Nation' for its diverse cultures, languages, and ethnic groups. The country features spectacular landscapes including Table Mountain, the Drakensberg range, and wildlife-rich national parks like Kruger. South Africa has a complex history of apartheid and subsequent reconciliation, with iconic figures like Nelson Mandela. The economy is the most developed in Africa, with strengths in mining (gold, diamonds, platinum), manufacturing, and tourism. South African culture has made global contributions through music, literature, and sports, particularly rugby and cricket."
       },
       {
         "name": "South Sudan",
@@ -2689,6 +2853,94 @@
     "area": 24709000,
     "numberOfCountries": 23,
     "countries": [
+      {
+        "name": "Antigua and Barbuda",
+        "countryCode": "AG",
+        "capital": "Saint John's",
+        "population": 105000,
+        "area": 442,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "East Caribbean Dollar (XCD)",
+        "callingCode": "+1-268",
+        "flag": "🇦🇬",
+        "gdp": 2230000000,
+        "shortDescription": "Twin-island nation known for its 365 beaches and as a major yachting destination.",
+        "description": "Antigua and Barbuda is a Commonwealth realm whose economy is predominantly driven by tourism, which leverages its rich history as a former British colonial naval base. The country is famous for its countless beaches, resorts, and as a major yachting hub, hosting events like Antigua Sailing Week. The capital, St. John's, features colorful colonial architecture and the impressive Baroque-style St. John's Cathedral. The economy is poised for robust growth, with a projected real GDP increase of 3.0% in 2025:cite[9]."
+      },
+      {
+        "name": "Bahamas",
+        "countryCode": "BS",
+        "capital": "Nassau",
+        "population": 413000,
+        "area": 13943,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "Bahamian Dollar (BSD)",
+        "callingCode": "+1-242",
+        "flag": "🇧🇸",
+        "gdp": 15180000000,
+        "shortDescription": "An archipelago of 700 islands with crystal-clear waters and a thriving tourism and offshore banking sector.",
+        "description": "The Commonwealth of the Bahamas is an archipelago known for its stunning clarity of water, which makes for exceptional diving and snorkeling. The economy is almost entirely dependent on tourism and financial services to generate foreign exchange earnings:cite[1]. The country has a high per capita income, with a nominal GDP per capita projected at $36,780 for 2025:cite[1]. The Bahamian dollar is fixed at a 1:1 ratio with the US dollar. The economy is projected to grow by 1.8% in 2025:cite[6]."
+      },
+      {
+        "name": "Barbados",
+        "countryCode": "BB",
+        "capital": "Bridgetown",
+        "population": 287000,
+        "area": 430,
+        "subregion": "Caribbean",
+        "languages": [
+          "English"
+        ],
+        "currency": "Barbadian Dollar (BBD)",
+        "callingCode": "+1-246",
+        "flag": "🇧🇧",
+        "gdp": 7550000000,
+        "shortDescription": "Eastern Caribbean island with a strong tourism sector and a reputation for political stability.",
+        "description": "Barbados has transformed from a sugar-dependent economy into a high-income economy based on tourism and the offshore sector. The country's economy is poised to maintain a robust growth trajectory, with full-year GDP growth projected at approximately 2.7 percent in 2025:cite[2]. The tourism industry remains a primary engine of growth, supported by broadened market outreach. Barbados is also actively implementing measures to modernize its economy, including expanding its digital infrastructure:cite[2]."
+      },
+      {
+        "name": "Belize",
+        "countryCode": "BZ",
+        "capital": "Belmopan",
+        "population": 441000,
+        "area": 22966,
+        "subregion": "Central America",
+        "languages": [
+          "English",
+          "Spanish",
+          "Belizean Creole"
+        ],
+        "currency": "Belize Dollar (BZD)",
+        "callingCode": "+501",
+        "flag": "🇧🇿",
+        "gdp": 3600000000,
+        "shortDescription": "Central American nation with the world's second-largest barrier reef and rich Mayan history.",
+        "description": "Belize is a small, private enterprise economy based primarily on agriculture, tourism, and services. The country features diverse ecosystems, including the Belize Barrier Reef, lush rainforests, and ancient Maya archaeological sites. The cultivation of newly discovered oil has presented new prospects for this developing nation:cite[3]. The Belize dollar is fixed to the U.S. dollar at a rate of 2:1. The GDP is projected to grow by 3.2% in 2025:cite[3]."
+      },
+      {
+        "name": "Canada",
+        "countryCode": "CA",
+        "capital": "Ottawa",
+        "population": 38780000,
+        "area": 9984670,
+        "subregion": "Northern America",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "currency": "Canadian Dollar (CAD)",
+        "callingCode": "+1",
+        "flag": "🇨🇦",
+        "gdp": 2240000000000,
+        "shortDescription": "World's second-largest country by area, known for its vast wilderness and highly developed economy.",
+        "description": "Canada has a highly diversified economy, with key sectors including services, manufacturing, and natural resources. Real gross domestic product (GDP) grew 0.2% in July 2025, with the growth predominantly driven by expansion in the goods-producing industries, particularly mining, quarrying, and oil and gas extraction:cite[4]. Canada is a trading nation, and its economic performance is closely linked to global market conditions. The country is known for its high quality of life, technological advancement, and stable financial system."
+      },
       {
         "name": "Costa Rica",
         "countryCode": "CR",
