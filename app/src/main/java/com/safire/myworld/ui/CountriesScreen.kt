@@ -7,13 +7,18 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeightIn
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Card
@@ -43,8 +48,15 @@ private val dummyCountry = Country(
     "NG",
     "Abuja",
     12005415451,
-    4541161f, "West Africa", listOf("English"),
-    "Naira", "+234", "\uD83C\uDDF3\uD83C\uDDEC", 0, "Africa's cultural powerhouse and largest economy, renowned for its vibrant music, film industry, and diverse traditions.", "naN"
+    4541161f,
+    "West Africa",
+    listOf("English"),
+    "Naira",
+    "+234",
+    "\uD83C\uDDF3\uD83C\uDDEC",
+    0,
+    "Africa's cultural powerhouse and largest economy, renowned for its vibrant music, film industry, and diverse traditions.",
+    "naN"
 )
 
 @Composable
@@ -54,7 +66,7 @@ fun CountriesScreen(
     modifier: Modifier = Modifier
 ) {
 
-    LazyColumn (
+    LazyColumn(
         contentPadding = PaddingValues(2.dp),
     ) {
         itemsIndexed(countries) { index, country ->
@@ -67,7 +79,8 @@ fun CountriesScreen(
 fun CountryItem(
     country: Country,
     onCountryClick: (Country) -> Unit,
-    modifier: Modifier = Modifier) {
+    modifier: Modifier = Modifier
+) {
 
 
     Card(
@@ -78,77 +91,81 @@ fun CountryItem(
             .fillMaxWidth()
     ) {
 
-        Box(
-            contentAlignment = Alignment.Center,
-            propagateMinConstraints = true,
-            modifier = Modifier
-                .fillMaxSize()
-                .clickable(onClick = { onCountryClick(country) })
+        Column(
+            verticalArrangement = Arrangement.Center
         ) {
-
-            Image(
-                painterResource(R.drawable.traveling),
-                contentScale = ContentScale.FillBounds,
-                contentDescription = "Simple city background",
-                alpha = 0.3f,
+            Box(
+                contentAlignment = Alignment.Center,
+                propagateMinConstraints = true,
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .height(200.dp)
-                // transparency
-
-            )
-
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(8.dp)
+                    .fillMaxSize()
+                    .clickable(onClick = { onCountryClick(country) })
             ) {
-                Text(
-                    text = country.flag,
-                    fontSize = 64.sp,
 
-                    )
+                Image(
+                    painterResource(R.drawable.traveling),
+                    contentScale = ContentScale.FillBounds,
+                    contentDescription = "Simple city background",
+                    alpha = 0.3f,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .size(220.dp)
+                    // transparency
 
-                Column(
-                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                )
+
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(8.dp)
                 ) {
                     Text(
-                        text = "${country.name} (${country.countryCode})",
-                        style = MaterialTheme.typography.headlineLarge,
+                        text = country.flag,
+                        fontSize = 64.sp,
 
-                    )
+                        )
 
-                    IconText(
-                        painterResource(R.drawable.location),
-                        "Subregion",
-                        country.subregion,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
+                    Column(
+                        verticalArrangement = Arrangement.spacedBy(4.dp)
+                    ) {
+                        Text(
+                            text = "${country.name} (${country.countryCode})",
+                            style = MaterialTheme.typography.headlineLarge,
 
-                    IconText(
-                        painterResource(R.drawable.home_pin),
-                        "Capital",
-                        country.capital,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
+                            )
+
+                        IconText(
+                            painterResource(R.drawable.location),
+                            "Subregion",
+                            country.subregion,
+                            color = MaterialTheme.colorScheme.onPrimaryContainer
+                        )
+
+                        IconText(
+                            painterResource(R.drawable.home_pin),
+                            "Capital",
+                            country.capital,
+                            color = MaterialTheme.colorScheme.onPrimaryContainer
+                        )
 
 
-                    IconText(
-                        painterResource(R.drawable.language),
-                        "Language",
-                        country.languages.joinToString(),
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
+                        IconText(
+                            painterResource(R.drawable.language),
+                            "Language",
+                            country.languages.joinToString(),
+                            color = MaterialTheme.colorScheme.onPrimaryContainer
+                        )
 
-                    Text(
-                        country.shortDescription,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer,
-                        style = MaterialTheme.typography.titleMedium,
-                        fontSize = 18.sp,
-                        fontWeight = FontWeight.SemiBold
+                        Text(
+                            country.shortDescription,
+                            color = MaterialTheme.colorScheme.onPrimaryContainer,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontSize = 18.sp,
+                            fontWeight = FontWeight.SemiBold,
 
-                    )
+                        )
+                    }
                 }
             }
         }
@@ -160,7 +177,7 @@ fun CountryItem(
 private fun CountriesScreenPreview() {
     MyWorldTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            CountriesScreen(List(3){ dummyCountry }, { country, index ->  })
+            CountriesScreen(List(3) { dummyCountry }, { country, index -> })
         }
     }
 }
